@@ -1,0 +1,26 @@
+- Name: Switzerland
+  Capital: Bern
+  Population: 8.5
+  Languages: 
+    - German
+    - French
+    - Italian
+    - Romansh
+- Name: Canada
+  Capital: Ottawa
+  Population: 38
+  Languages: 
+    - English
+    - French
+- Name: Belgium
+  Capital: Brussels
+  Population: 11.5
+  Languages: [Dutch, French, German]
+- Name: South Africa
+  Capital: Pretoria
+  Population: 59.3
+  Languages: [Zulu, Xhosa, Afrikaans, Others]
+- Name: India
+  Capital: New Delhi
+  Population: 1380
+  Languages: [Hindi, Tamil, Telugu, Urdu, Others]

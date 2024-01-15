@@ -1,0 +1,29 @@
+[
+{
+    "Product": "Apple",
+    "Price": "1.50",
+    "Description":"Fresh green apples",
+    "Key Words": ["Juicy", "Green", "Crunchy"]
+},
+
+{
+    "Product": "Banana",
+    "Price": "0.30",
+    "Description":"Ripe yellow bananas",
+    "Key Words": ["Sweet", "Yellow", "Soft"]
+},
+
+{
+    "Product": "Orange Juice",
+    "Price": "3.00",
+    "Description":"Freshly squeezed orange juice",
+    "Key Words": ["Citrus", "Vitamin C", "Fresh"]
+},
+
+{
+    "Product": "Chocolate Cake",
+    "Price": "5.00",
+    "Description":"Rich and moist chocolate cake",
+    "Key Words": ["Chocolatey", "Rich", "Creamy"]
+}
+]
