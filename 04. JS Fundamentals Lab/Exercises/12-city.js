@@ -1,8 +1,11 @@
 function printCityInfo(cityObject) {
+    // Iterate through all properties of the cityObject
     for (const key in cityObject) {
-      if (cityObject.hasOwnProperty(key)) {
+      // Check if the property is directly owned by the object- optional
+      // if (cityObject.hasOwnProperty(key)) {
+        // Print the property and its corresponding value
         console.log(`${key} -> ${cityObject[key]}`);
-      }
+      // }
     }
   }
   
@@ -15,5 +18,6 @@ function printCityInfo(cityObject) {
     postcode: "10001"
   };
   
+  // Use the function to print information about the city
   printCityInfo(city);
   
