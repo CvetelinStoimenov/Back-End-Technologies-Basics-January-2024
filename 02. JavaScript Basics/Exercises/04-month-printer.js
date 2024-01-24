@@ -1,6 +1,10 @@
-function monthPrinter(numberOfMonth){
+// Define a function named monthPrinter that takes a parameter 'numberOfMonth'
+function monthPrinter(numberOfMonth) {
+    // Enable strict mode to catch common coding errors and improve performance
     'use strict';
-    switch (numberOfMonth){
+
+    // Use a switch statement to check the value of 'numberOfMonth'
+    switch (numberOfMonth) {
         case 1:
             console.log('January');
             break;
@@ -38,9 +42,10 @@ function monthPrinter(numberOfMonth){
             console.log('December');
             break;
         default:
-            console.log('Error!');
+            console.log('Error!'); // If 'numberOfMonth' doesn't match any case, log an error
             break;
     }
 }
 
-monthPrinter(16)
+// Call the monthPrinter function with a specific number of the month (16)
+monthPrinter(16);

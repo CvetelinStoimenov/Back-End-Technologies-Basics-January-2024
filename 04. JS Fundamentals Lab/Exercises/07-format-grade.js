@@ -1,6 +1,9 @@
+// Define a function named formatGrade that takes one parameter: grade
 function formatGrade(grade) {
+    // Enable strict mode to catch common coding errors and improve performance
     'use strict';
 
+    // Check different grade ranges and print the corresponding message
     if (grade < 3.00) {
         console.log(`Fail (2)`);
     } else if (grade >= 3.00 && grade < 3.50) {
@@ -14,6 +17,8 @@ function formatGrade(grade) {
     }
 }
 
+// Call the formatGrade function with specific values (2.99)
+formatGrade(2.99);
 
-formatGrade(2.99)
-formatGrade(3.00)
+// Call the formatGrade function with specific values (3.00)
+formatGrade(3.00);
