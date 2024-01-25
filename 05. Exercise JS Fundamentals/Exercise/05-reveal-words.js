@@ -58,18 +58,25 @@ function revealWords1(words, template) {
 revealWords1('great, learning, programming', 'softuni is ***** place for ******** new *********** languages');
 
 
+// Define a function named lectorRevealWords to replace placeholders in a template with corresponding words
 function lectorRevealWords(words, template) {
+    // Enable strict mode to catch common coding errors and improve performance
     'use strict';
 
+    // Split the words string into an array of individual words, separated by ', '
     const separatedWords = words.split(', ');
 
+    // Iterate over each separated word
     for (const separatedWord of separatedWords) {
-        template = template.replace('*'.repeat(separatedWord.length), separatedWord)
-        }
+        // Replace each occurrence of '*' repeated for the length of the separated word with the separated word itself in the template
+        template = template.replace('*'.repeat(separatedWord.length), separatedWord);
+    }
 
+    // Log the updated template with revealed words to the console
     console.log(template);
 }
 
+// Call the lectorRevealWords function with specific words and a template, and log the result
 lectorRevealWords('great', 'softuni is ***** place for learning new programming languages');
 lectorRevealWords('great, learning', 'softuni is ***** place for ******** new programming languages');
 lectorRevealWords('great, learning, programming', 'softuni is ***** place for ******** new *********** languages');

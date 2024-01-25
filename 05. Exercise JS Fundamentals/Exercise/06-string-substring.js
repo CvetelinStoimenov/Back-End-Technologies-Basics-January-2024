@@ -37,3 +37,29 @@ function stringSubstring(word, text) {
 // Call the stringSubstring function with specific word and text inputs, and log the result
 stringSubstring('Javascript', 'JavaScript is the best programming language');
 stringSubstring('python', 'JavaScript is the best programming language');
+
+
+// Define a function named lectorStringSubstring to check if a word exists in a given text
+function lectorStringSubstring(word, text) {
+    // Enable strict mode to catch common coding errors and improve performance
+    'use strict';
+
+    // Convert the entire text to lowercase for case-insensitive comparison
+    const hasWord = text
+    .toLowerCase()
+    .split(' ')
+    .includes(word.toLowerCase());
+    
+    // Check if the word is found in the text
+    if (hasWord) {
+        // If found, log the original word to the console
+        console.log(word);
+    } else {
+        // If not found, log a message indicating that the word was not found
+        console.log(`${word} not found!`);
+    }
+}
+
+// Call the lectorStringSubstring function with specific word and text inputs, and log the result
+lectorStringSubstring('Javascript', 'JavaScript is the best programming language');
+lectorStringSubstring('python', 'JavaScript is the best programming language');
