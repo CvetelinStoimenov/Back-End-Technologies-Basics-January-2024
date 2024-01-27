@@ -1,4 +1,4 @@
-function solve(input) {
+function movies(input) {
     let movies = []; // Initialize an empty array to store movie objects
 
     // Iterate through each command in the input
@@ -35,7 +35,7 @@ function solve(input) {
 }
 
 // Example usage:
-solve([
+movies([
     "addMovie Fast and Furious",
     "addMovie Godfather",
     "Inception directedBy Christopher Nolan",
