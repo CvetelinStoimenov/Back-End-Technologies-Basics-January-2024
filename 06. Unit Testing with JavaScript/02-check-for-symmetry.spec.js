@@ -1,7 +1,7 @@
 import { isSymmetric } from './02-check-for-symmetry.js';
 import { expect } from 'chai';
 
-describe('Test the Is Symmetric function', () => {
+describe('Test the Is Symmetric function.', () => {
     it('Should return true if the array is empty', () => {
         // Arrange
         const inputArray = [];
@@ -13,7 +13,7 @@ describe('Test the Is Symmetric function', () => {
         expect(result).to.be.true;
     });
 
-    it('Should return false if a non-array is given', () => {
+    it('Should return false if a non-array is given.', () => {
         // Arrange
         // Act
         const nanResult = isSymmetric(NaN);
@@ -33,7 +33,7 @@ describe('Test the Is Symmetric function', () => {
 
     });
 
-    it('Should return true if a symmetric array is given', () => {
+    it('Should return true if a symmetric array is given.', () => {
         // Arrange
         const inputArray = [3, 2, 1, 2, 3];
 
@@ -44,7 +44,7 @@ describe('Test the Is Symmetric function', () => {
         expect(result).to.be.true;
     });
 
-    it('Should return false if a non-symmetric array is given', () => {
+    it('Should return false if a non-symmetric array is given.', () => {
         // Arrange
         const inputArray = [1, 2, 3, 4];
 
@@ -55,7 +55,7 @@ describe('Test the Is Symmetric function', () => {
         expect(result).to.be.false;
     });
 
-    it('Should return false for symmetric lookalike values', () => {
+    it('Should return false for symmetric lookalike values.', () => {
         // Arrange
         const inputArray = ['1', '2', '3', 2, 1];
 
