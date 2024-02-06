@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibroConsoleAPI
-build_property.ProjectDir = C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\09. Exercises Integration Testing - part 1\LibroConsoleAPI\LibroConsoleAPI\
+build_property.ProjectDir = Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\12-Exercise-Integration-Testing-LibroConsoleAPI-TestClassesCreated_MethodsNotImplemented\LibroConsoleAPI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
