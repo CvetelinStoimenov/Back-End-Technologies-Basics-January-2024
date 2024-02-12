@@ -80,7 +80,10 @@ namespace LibroConsoleAPI.IntegrationTests
             // Assert
             var bookInDb = await _dbContext.Books.FirstOrDefaultAsync(b => b.ISBN == "9780385487256");
             Assert.Null(bookInDb);
+            var bookInDbToList = await _dbContext.Books.ToListAsync();
+            Assert.Equal(9, bookInDbToList.Count);
         }
+
         [Fact]
         public async Task DeleteBookAsync_TryToDeleteWithNullOrWhiteSpaceISBN_ShouldThrowException()
         {
@@ -91,7 +94,8 @@ namespace LibroConsoleAPI.IntegrationTests
             var exception = Assert.ThrowsAsync<ArgumentException>(() => _bookManager.DeleteAsync(""));
             Assert.Equal(("ISBN cannot be empty."), exception.Result.Message);
             await Assert.ThrowsAsync<ArgumentException>(() => _bookManager.DeleteAsync(""));
-
+            var bookInDbToList = await _dbContext.Books.ToListAsync();
+            Assert.Equal(10, bookInDbToList.Count);
         }
 
         [Fact]
@@ -108,6 +112,8 @@ namespace LibroConsoleAPI.IntegrationTests
             Assert.NotEmpty(bookInDb);
             Assert.Contains(bookInDb, b => b.Title == "The Martian");
             Assert.Contains(bookInDb, b => b.Author == "Patrick Rothfuss");
+            var bookInDbToList = await _dbContext.Books.ToListAsync();
+            Assert.Equal(10, bookInDbToList.Count);
 
             // Optionally, you can also check specific properties of the first book in the collection
             var firstBook = bookInDb.FirstOrDefault();
@@ -171,30 +177,65 @@ namespace LibroConsoleAPI.IntegrationTests
         public async Task GetSpecificAsync_WithValidIsbn_ShouldReturnBook()
         {
             // Arrange
+            await DatabaseSeeder.SeedDatabaseAsync(_dbContext, _bookManager);
 
             // Act
+            var searchBookInDb = await _bookManager.GetSpecificAsync("9780312857753");
 
             // Assert
+            Assert.NotNull(searchBookInDb);
+            Assert.Equal("1984", searchBookInDb.Title);
+            Assert.Equal("George Orwell", searchBookInDb.Author);
+            Assert.Equal(1949, searchBookInDb.YearPublished);
+            Assert.Equal("Dystopian Fiction", searchBookInDb.Genre);
+            Assert.Equal(9.99, searchBookInDb.Price);
+            Assert.Equal(328, searchBookInDb.Pages);
         }
 
         [Fact]
         public async Task GetSpecificAsync_WithInvalidIsbn_ShouldThrowKeyNotFoundException()
         {
             // Arrange
+            await DatabaseSeeder.SeedDatabaseAsync(_dbContext, _bookManager);
 
-            // Act
+            // Act & Assert
+            var exception = Assert.ThrowsAsync<KeyNotFoundException>(() => _bookManager.GetSpecificAsync("sdasda"));
+            await Assert.ThrowsAsync<KeyNotFoundException>(() => _bookManager.GetSpecificAsync("sdasda"));
+            Assert.Equal("No book found with ISBN: sdasda", exception.Result.Message);
 
-            // Assert
+            try
+            {
+                await _bookManager.GetSpecificAsync("   ");
+            }
+            catch (Exception ex)
+            {
+                Assert.Equal("ISBN cannot be empty.", ex.Message);
+            }
         }
 
         [Fact]
         public async Task UpdateAsync_WithValidBook_ShouldUpdateBook()
         {
-            // Arrange
+            var newBook = new Book
+            {
+                Title = "Test Book",
+                Author = "John Doe",
+                ISBN = "1234567890123",
+                YearPublished = 2021,
+                Genre = "Fiction",
+                Pages = 100,
+                Price = 19.99
+            };
+            await _bookManager.UpdateAsync(newBook);
+            newBook.Title = "UpdatedTitle";
 
             // Act
+            await _bookManager.UpdateAsync(newBook);
 
             // Assert
+            Assert.NotNull(newBook);
+            Assert.Equal("UpdatedTitle", newBook.Title);
+            var bookInDb = _dbContext.Books.FirstOrDefault(b => b.Title == "UpdatedTitle");
         }
 
         [Fact]

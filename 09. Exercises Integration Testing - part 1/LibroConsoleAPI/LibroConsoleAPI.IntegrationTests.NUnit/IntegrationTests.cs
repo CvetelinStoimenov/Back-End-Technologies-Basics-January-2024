@@ -208,44 +208,88 @@ namespace LibroConsoleAPI.IntegrationTests.NUnit
         public async Task GetSpecificAsync_WithValidIsbn_ShouldReturnBook()
         {
             // Arrange
+            await DatabaseSeeder.SeedDatabaseAsync(dbContext, bookManager);
 
             // Act
+            var searchBookInDb = await bookManager.GetSpecificAsync("9780312857753");
 
             // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            Assert.NotNull(searchBookInDb);
+            Assert.That(searchBookInDb.Title, Is.EqualTo("1984"));
+            Assert.That(searchBookInDb.Author, Is.EqualTo("George Orwell"));
+            Assert.That(searchBookInDb.YearPublished, Is.EqualTo(1949));
+            Assert.That(searchBookInDb.Genre, Is.EqualTo("Dystopian Fiction"));
+            Assert.That(searchBookInDb.Price, Is.EqualTo(9.99));
+            Assert.That(searchBookInDb.Pages, Is.EqualTo(328));
         }
 
         [Test]
         public async Task GetSpecificAsync_WithInvalidIsbn_ShouldThrowKeyNotFoundException()
         {
             // Arrange
+            await DatabaseSeeder.SeedDatabaseAsync(dbContext, bookManager);
 
-            // Act
+            // Act & Assert
+            var exception = Assert.ThrowsAsync<KeyNotFoundException>(() => bookManager.GetSpecificAsync("sdasda"));
+            Assert.ThrowsAsync<KeyNotFoundException>(() => bookManager.GetSpecificAsync("sdasda"));
+            Assert.That(exception.Message, Is.EqualTo("No book found with ISBN: sdasda"));
 
-            // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            try
+            {
+                await bookManager.GetSpecificAsync("   ");
+            }
+            catch (Exception ex)
+            {
+                Assert.That(ex.Message, Is.EqualTo("ISBN cannot be empty."));
+            }
         }
 
         [Test]
         public async Task UpdateAsync_WithValidBook_ShouldUpdateBook()
         {
-            // Arrange
+            var newBook = new Book
+            {
+                Title = "Test Book",
+                Author = "John Doe",
+                ISBN = "1234567890123",
+                YearPublished = 2021,
+                Genre = "Fiction",
+                Pages = 100,
+                Price = 19.99
+            };
+            await bookManager.UpdateAsync(newBook);
+            newBook.Title = "UpdatedTitle";
 
             // Act
+            await bookManager.UpdateAsync(newBook);
 
             // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            Assert.NotNull(newBook);
+            Assert.That(newBook.Title, Is.EqualTo("UpdatedTitle"));
+            var bookInDb = dbContext.Books.FirstOrDefault(b => b.Title == "UpdatedTitle");
         }
 
         [Test]
         public async Task UpdateAsync_WithInvalidBook_ShouldThrowValidationException()
         {
-            // Arrange
-
             // Act
+            var newBook = new Book
+            {
 
-            // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            };
+
+            //Assert
+            var exception = Assert.ThrowsAsync<ValidationException>(() => bookManager.UpdateAsync(newBook));
+            Assert.ThrowsAsync<ValidationException>(() => bookManager.UpdateAsync(newBook));
+            Assert.That(exception.Message, Is.EqualTo("Book is invalid."));
+            try
+            {
+                await bookManager.UpdateAsync(newBook);
+            }
+            catch (Exception ex)
+            {
+                Assert.That(ex.Message, Is.EqualTo("Book is invalid."));
+            }
         }
     }
 }
