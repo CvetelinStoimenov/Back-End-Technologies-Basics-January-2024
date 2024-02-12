@@ -1,6 +1,7 @@
 ﻿using LibroConsoleAPI.Business;
 using LibroConsoleAPI.Business.Contracts;
 using LibroConsoleAPI.Data.Models;
+using LibroConsoleAPI.DataAccess;
 using LibroConsoleAPI.Repositories;
 using Microsoft.EntityFrameworkCore;
 using NUnit.Framework.Internal;
@@ -10,6 +11,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace LibroConsoleAPI.IntegrationTests.NUnit
 {
@@ -53,7 +55,7 @@ namespace LibroConsoleAPI.IntegrationTests.NUnit
             // Assert
             var bookInDb = await dbContext.Books.FirstOrDefaultAsync(b => b.ISBN == newBook.ISBN);
             Assert.NotNull(bookInDb);
-            Assert.AreEqual("Test Book", bookInDb.Title);
+            Assert.That(bookInDb.Title, Is.EqualTo("Test Book"));
             Assert.AreEqual("John Doe", bookInDb.Author);
         }
 
@@ -92,46 +94,54 @@ namespace LibroConsoleAPI.IntegrationTests.NUnit
         public async Task DeleteBookAsync_WithValidISBN_ShouldRemoveBookFromDb()
         {
             // Arrange
-            var newBook = new Book
-            {
-                Title = new string("Test Book"),
-                Author = "John Doe",
-                ISBN = "1234567890123",
-                YearPublished = 2021,
-                Genre = "Fiction",
-                Pages = 100,
-                Price = 19.99
-            };
-            await bookManager.AddAsync(newBook);
+            await DatabaseSeeder.SeedDatabaseAsync(dbContext, bookManager);
 
             // Act
-            await bookManager.DeleteAsync("1234567890123");
+            await bookManager.DeleteAsync("9780385487256");
 
             // Assert
-            var bookInDb = await dbContext.Books.FirstOrDefaultAsync(b => b.ISBN == newBook.ISBN);
+            var bookInDb = await dbContext.Books.FirstOrDefaultAsync(b => b.ISBN == "9780385487256");
             Assert.Null(bookInDb);
+            var booksInDbToList = dbContext.Books.ToList();
+            Assert.That(booksInDbToList.Count, Is.EqualTo(9));
         }
 
         [Test]
         public async Task DeleteBookAsync_TryToDeleteWithNullOrWhiteSpaceISBN_ShouldThrowException()
         {
             // Arrange
+            await DatabaseSeeder.SeedDatabaseAsync(dbContext, bookManager);
 
-            // Act
-
-            // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            // Act & Assert
+            var exception = Assert.ThrowsAsync<ArgumentException>(() => bookManager.DeleteAsync(""));
+            Assert.That(exception.Message, Is.EqualTo("ISBN cannot be empty."));
         }
 
         [Test]
         public async Task GetAllAsync_WhenBooksExist_ShouldReturnAllBooks()
         {
             // Arrange
+            await DatabaseSeeder.SeedDatabaseAsync(dbContext, bookManager);
 
             // Act
+            var bookInDb = await bookManager.GetAllAsync();
 
             // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            Assert.NotNull(bookInDb);
+            Assert.IsNotEmpty(bookInDb);
+            Assert.That(bookInDb.Count, Is.EqualTo(10));
+            Assert.IsTrue(bookInDb.Any(b => b.Title == "The Martian"));
+            Assert.IsTrue(bookInDb.Any(b => b.Author == "Patrick Rothfuss"));
+
+            // Optionally, you can also check specific properties of the first book in the collection
+            var firstBook = bookInDb.FirstOrDefault();
+            Assert.NotNull(firstBook);
+            Assert.That(firstBook.Title, Is.EqualTo("To Kill a Mockingbird"));
+            Assert.That(firstBook.Author, Is.EqualTo("Harper Lee"));
+            Assert.That(firstBook.Genre, Is.EqualTo("Novel"));
+            Assert.That(firstBook.YearPublished, Is.EqualTo(1960));
+            Assert.That(firstBook.Pages, Is.EqualTo(336));
+            Assert.That(firstBook.Price, Is.EqualTo(10.99));
         }
 
         [Test]

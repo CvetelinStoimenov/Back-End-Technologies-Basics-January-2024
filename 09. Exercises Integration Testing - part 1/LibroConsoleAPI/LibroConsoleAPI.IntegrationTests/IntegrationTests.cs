@@ -83,20 +83,37 @@ namespace LibroConsoleAPI.IntegrationTests
         public async Task DeleteBookAsync_TryToDeleteWithNullOrWhiteSpaceISBN_ShouldThrowException()
         {
             // Arrange
+            await DatabaseSeeder.SeedDatabaseAsync(_dbContext, _bookManager);
 
-            // Act
-
-            // Assert
+            // Act & Assert
+            var exception = Assert.ThrowsAsync<ArgumentException>(() => _bookManager.DeleteAsync(""));
+            Assert.Equal(("ISBN cannot be empty."), exception.Result.Message);
         }
 
         [Fact]
         public async Task GetAllAsync_WhenBooksExist_ShouldReturnAllBooks()
         {
             // Arrange
+            await DatabaseSeeder.SeedDatabaseAsync(_dbContext, _bookManager);
 
             // Act
+            var bookInDb = await _bookManager.GetAllAsync();
 
             // Assert
+            Assert.NotNull(bookInDb);
+            Assert.NotEmpty(bookInDb);
+            Assert.Contains(bookInDb, b => b.Title == "The Martian");
+            Assert.Contains(bookInDb, b => b.Author == "Patrick Rothfuss");
+
+            // Optionally, you can also check specific properties of the first book in the collection
+            var firstBook = bookInDb.FirstOrDefault();
+            Assert.NotNull(firstBook);
+            Assert.Equal(("To Kill a Mockingbird"), firstBook.Title);
+            Assert.Equal(("Harper Lee"), firstBook.Author);
+            Assert.Equal(("Novel"), firstBook.Genre);
+            Assert.Equal((1960), firstBook.YearPublished);
+            Assert.Equal((336), firstBook.Pages);
+            Assert.Equal((10.99), firstBook.Price);
         }
 
         [Fact]
