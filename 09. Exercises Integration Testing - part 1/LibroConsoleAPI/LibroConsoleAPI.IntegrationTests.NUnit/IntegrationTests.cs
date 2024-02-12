@@ -16,12 +16,13 @@ namespace LibroConsoleAPI.IntegrationTests.NUnit
     public  class IntegrationTests
     {
         private TestLibroDbContext dbContext;
-        private IBookManager bookManager;
+        private BookManager bookManager;
 
         [SetUp]
         public void SetUp()
         {
-            this.dbContext = new TestLibroDbContext();
+            string dbName = $"TestDb_{Guid.NewGuid()}";
+            this.dbContext = new TestLibroDbContext(dbName);
             this.bookManager = new BookManager(new BookRepository(this.dbContext));
         }
 

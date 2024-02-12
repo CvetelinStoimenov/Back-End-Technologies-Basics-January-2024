@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibroConsoleAPI.IntegrationTests.NUnit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d6f8b200737b4a567e470fee7b505c3794405ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39b3d7b977224ef4027bc566aa226c59f0e1fc80")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibroConsoleAPI.IntegrationTests.NUnit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibroConsoleAPI.IntegrationTests.NUnit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
