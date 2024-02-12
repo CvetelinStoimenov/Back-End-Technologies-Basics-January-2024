@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TownApplication.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1593e67cfdb7244fe4368473e4ff4e8e00ab1922")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1486f03ef676444d6398d0421a3ed1cdbb12e62")]
 [assembly: System.Reflection.AssemblyProductAttribute("TownApplication.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TownApplication.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
