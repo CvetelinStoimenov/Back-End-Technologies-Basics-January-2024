@@ -3,6 +3,7 @@ using LibroConsoleAPI.Business.Contracts;
 using LibroConsoleAPI.Data.Models;
 using LibroConsoleAPI.Repositories;
 using Microsoft.EntityFrameworkCore;
+using NUnit.Framework.Internal;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -90,11 +91,24 @@ namespace LibroConsoleAPI.IntegrationTests.NUnit
         public async Task DeleteBookAsync_WithValidISBN_ShouldRemoveBookFromDb()
         {
             // Arrange
+            var newBook = new Book
+            {
+                Title = new string("Test Book"),
+                Author = "John Doe",
+                ISBN = "1234567890123",
+                YearPublished = 2021,
+                Genre = "Fiction",
+                Pages = 100,
+                Price = 19.99
+            };
+            await bookManager.AddAsync(newBook);
 
             // Act
+            await bookManager.DeleteAsync("1234567890123");
 
             // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            var bookInDb = await dbContext.Books.FirstOrDefaultAsync(b => b.ISBN == newBook.ISBN);
+            Assert.Null(bookInDb);
         }
 
         [Test]
