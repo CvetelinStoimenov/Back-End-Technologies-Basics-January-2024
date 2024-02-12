@@ -1,7 +1,9 @@
 using LibroConsoleAPI.Business;
 using LibroConsoleAPI.Business.Contracts;
 using LibroConsoleAPI.Data.Models;
+using LibroConsoleAPI.DataAccess;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using System.ComponentModel.DataAnnotations;
 
 namespace LibroConsoleAPI.IntegrationTests
@@ -9,7 +11,7 @@ namespace LibroConsoleAPI.IntegrationTests
     public class IntegrationTests : IClassFixture<BookManagerFixture>
     {
         private readonly BookManagerFixture _fixture;
-        private readonly IBookManager _bookManager;
+        private readonly BookManager _bookManager;
         private readonly TestLibroDbContext _dbContext;
 
         public IntegrationTests()
@@ -68,23 +70,13 @@ namespace LibroConsoleAPI.IntegrationTests
         public async Task DeleteBookAsync_WithValidISBN_ShouldRemoveBookFromDb()
         {
             // Arrange
-            var newBook = new Book
-            {
-                Title = new string("Test Book"),
-                Author = "John Doe",
-                ISBN = "1234567890123",
-                YearPublished = 2021,
-                Genre = "Fiction",
-                Pages = 100,
-                Price = 19.99
-            };
-            await _bookManager.AddAsync(newBook);
+            await DatabaseSeeder.SeedDatabaseAsync(_dbContext, _bookManager);
 
             // Act
-            await _bookManager.DeleteAsync("1234567890123");
+            await _bookManager.DeleteAsync("9780385487256");
 
             // Assert
-            var bookInDb = await _dbContext.Books.FirstOrDefaultAsync(b => b.ISBN == newBook.ISBN);
+            var bookInDb = await _dbContext.Books.FirstOrDefaultAsync(b => b.ISBN == "9780385487256");
             Assert.Null(bookInDb);
         }
         [Fact]
