@@ -147,34 +147,61 @@ namespace LibroConsoleAPI.IntegrationTests.NUnit
         [Test]
         public async Task GetAllAsync_WhenNoBooksExist_ShouldThrowKeyNotFoundException()
         {
-            // Arrange
+            // Act & Assert
+            var exception = Assert.ThrowsAsync<KeyNotFoundException>(() => bookManager.GetAllAsync());
+            Assert.ThrowsAsync<KeyNotFoundException>(() => bookManager.GetAllAsync());
+            Assert.That(exception.Message, Is.EqualTo("No books found."));
 
-            // Act
-
-            // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            try
+            {
+                await bookManager.GetAllAsync();
+            }
+            catch (Exception ex)
+            {
+                Assert.That(ex.Message, Is.EqualTo("No books found."));
+            }
         }
 
         [Test]
         public async Task SearchByTitleAsync_WithValidTitleFragment_ShouldReturnMatchingBooks()
         {
             // Arrange
+            await DatabaseSeeder.SeedDatabaseAsync(dbContext, bookManager);
 
             // Act
+            var searchBookInDb = await bookManager.SearchByTitleAsync("1984");
 
             // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            Assert.NotNull(searchBookInDb);
+            Assert.IsNotEmpty(searchBookInDb);
+            var firstBook = searchBookInDb.FirstOrDefault();
+            Assert.Multiple(() =>
+            {
+                Assert.That(firstBook.ISBN, Is.EqualTo("9780312857753"));
+                Assert.That(firstBook.Author, Is.EqualTo("George Orwell"));
+                Assert.That(firstBook.Genre, Is.EqualTo("Dystopian Fiction"));
+                Assert.That(firstBook.YearPublished, Is.EqualTo(1949));
+                Assert.That(firstBook.Pages, Is.EqualTo(328));
+                Assert.That(firstBook.Price, Is.EqualTo(9.99));
+            });
         }
 
         [Test]
         public async Task SearchByTitleAsync_WithInvalidTitleFragment_ShouldThrowKeyNotFoundException()
         {
-            // Arrange
+            // Act & Assert
+            var exception = Assert.ThrowsAsync<ArgumentException>(() => bookManager.SearchByTitleAsync(""));
+            Assert.ThrowsAsync<ArgumentException>(() => bookManager.SearchByTitleAsync(""));
+            Assert.That(exception.Message, Is.EqualTo("Title fragment cannot be empty."));
 
-            // Act
-
-            // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            try
+            {
+                await bookManager.SearchByTitleAsync("   ");
+            }
+            catch (Exception ex)
+            {
+                Assert.That(ex.Message, Is.EqualTo("Title fragment cannot be empty."));
+            }
         }
 
         [Test]

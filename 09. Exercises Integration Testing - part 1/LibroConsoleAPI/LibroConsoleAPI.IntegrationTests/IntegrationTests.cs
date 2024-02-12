@@ -64,6 +64,8 @@ namespace LibroConsoleAPI.IntegrationTests
             // Act & Assert
             var exception = Assert.ThrowsAsync<ValidationException>(() => _bookManager.AddAsync(invalidBook));
             Assert.Equal(("Book is invalid."), exception.Result.Message);
+            await Assert.ThrowsAsync<ValidationException>(() => _bookManager.AddAsync(invalidBook));
+
         }
 
         [Fact]
@@ -88,6 +90,8 @@ namespace LibroConsoleAPI.IntegrationTests
             // Act & Assert
             var exception = Assert.ThrowsAsync<ArgumentException>(() => _bookManager.DeleteAsync(""));
             Assert.Equal(("ISBN cannot be empty."), exception.Result.Message);
+            await Assert.ThrowsAsync<ArgumentException>(() => _bookManager.DeleteAsync(""));
+
         }
 
         [Fact]
@@ -119,31 +123,48 @@ namespace LibroConsoleAPI.IntegrationTests
         [Fact]
         public async Task GetAllAsync_WhenNoBooksExist_ShouldThrowKeyNotFoundException()
         {
-            // Arrange
-
-            // Act
-
-            // Assert
+            // Act & Assert
+            var exception = Assert.ThrowsAsync<KeyNotFoundException>(() => _bookManager.GetAllAsync());
+            await Assert.ThrowsAsync<KeyNotFoundException>(() => _bookManager.GetAllAsync());
+            Assert.Equal(("No books found."), exception.Result.Message);
         }
 
         [Fact]
         public async Task SearchByTitleAsync_WithValidTitleFragment_ShouldReturnMatchingBooks()
         {
             // Arrange
+            await DatabaseSeeder.SeedDatabaseAsync(_dbContext, _bookManager);
 
             // Act
+            var searchBookInDb = await _bookManager.SearchByTitleAsync("1984");
 
             // Assert
+            Assert.NotNull(searchBookInDb);
+            Assert.NotEmpty(searchBookInDb);
+            Assert.Contains(searchBookInDb, b => b.Author == "George Orwell");
+            Assert.Contains(searchBookInDb, b => b.ISBN == "9780312857753");
+            Assert.Contains(searchBookInDb, b => b.YearPublished == 1949);
+            Assert.Contains(searchBookInDb, b => b.Genre == "Dystopian Fiction");
+            Assert.Contains(searchBookInDb, b => b.Price == 9.99);
+            Assert.Contains(searchBookInDb, b => b.Pages == 328);
         }
 
         [Fact]
         public async Task SearchByTitleAsync_WithInvalidTitleFragment_ShouldThrowKeyNotFoundException()
         {
-            // Arrange
+            // Act & Assert
+            var exception = Assert.ThrowsAsync<ArgumentException>(() => _bookManager.SearchByTitleAsync(""));
+            await Assert.ThrowsAsync<ArgumentException>(() => _bookManager.SearchByTitleAsync(""));
+            Assert.Equal("Title fragment cannot be empty.", exception.Result.Message);
 
-            // Act
-
-            // Assert
+            try
+            {
+                await _bookManager.SearchByTitleAsync("   ");
+            }
+            catch (Exception ex)
+            {
+                Assert.Equal("Title fragment cannot be empty.", ex.Message);
+            }
         }
 
         [Fact]
