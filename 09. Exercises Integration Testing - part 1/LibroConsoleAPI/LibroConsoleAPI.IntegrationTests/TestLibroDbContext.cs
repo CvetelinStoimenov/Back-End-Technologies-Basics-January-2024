@@ -6,9 +6,11 @@ namespace LibroConsoleAPI.IntegrationTests
 {
     public class TestLibroDbContext : LibroDbContext
     {
-        public TestLibroDbContext()
+        private readonly string _databaseName;
+        public TestLibroDbContext(string databaseName = "TestDatabase")
             : base(new ConfigurationBuilder().AddInMemoryCollection().Build())
         {
+            _databaseName = databaseName;
         }
 
 
@@ -16,7 +18,7 @@ namespace LibroConsoleAPI.IntegrationTests
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseInMemoryDatabase("TestDatabase");
+                optionsBuilder.UseInMemoryDatabase(_databaseName);
             }
         }
     }

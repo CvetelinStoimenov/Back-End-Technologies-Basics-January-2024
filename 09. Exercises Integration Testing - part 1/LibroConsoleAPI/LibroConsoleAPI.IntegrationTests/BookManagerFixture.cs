@@ -10,14 +10,14 @@ public class BookManagerFixture : IDisposable
 
     public BookManagerFixture()
     {
-        DbContext = new TestLibroDbContext();
+        string dbName = $"TestDb_{Guid.NewGuid()}";
+        DbContext = new TestLibroDbContext(dbName);
         var bookRepository = new BookRepository(DbContext);
         BookManager = new BookManager(bookRepository);
     }
 
     public void Dispose()
     {
-        // Clean up resources after tests
-        DbContext.Dispose();
+        DbContext?.Dispose();
     }
 }

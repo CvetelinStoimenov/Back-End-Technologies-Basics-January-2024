@@ -8,13 +8,15 @@ namespace LibroConsoleAPI.IntegrationTests
 {
     public class IntegrationTests : IClassFixture<BookManagerFixture>
     {
+        private readonly BookManagerFixture _fixture;
         private readonly IBookManager _bookManager;
         private readonly TestLibroDbContext _dbContext;
 
-        public IntegrationTests(BookManagerFixture fixture)
+        public IntegrationTests()
         {
-            _bookManager = fixture.BookManager;
-            _dbContext = fixture.DbContext;
+            _fixture = new BookManagerFixture();
+            _bookManager = _fixture.BookManager;
+            _dbContext = _fixture.DbContext;
         }
 
         [Fact]
