@@ -2427,11 +2427,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\12-Exercise-Integration-Testing-LibroConsoleAPI-TestClassesCreated_MethodsNotImplemented\\LibroConsoleAPI\\LibroConsoleAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI\\LibroConsoleAPI.csproj",
       "projectName": "LibroConsoleAPI",
-      "projectPath": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\12-Exercise-Integration-Testing-LibroConsoleAPI-TestClassesCreated_MethodsNotImplemented\\LibroConsoleAPI\\LibroConsoleAPI.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI\\LibroConsoleAPI.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\12-Exercise-Integration-Testing-LibroConsoleAPI-TestClassesCreated_MethodsNotImplemented\\LibroConsoleAPI\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",

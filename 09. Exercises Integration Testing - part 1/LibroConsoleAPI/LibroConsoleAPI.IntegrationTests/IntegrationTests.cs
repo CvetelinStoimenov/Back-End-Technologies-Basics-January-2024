@@ -45,11 +45,20 @@ namespace LibroConsoleAPI.IntegrationTests
         public async Task AddBookAsync_TryToAddBookWithInvalidCredentials_ShouldThrowException()
         {
             // Arrange
+            var invalidBook = new Book
+            {
+                Title = new string('A', 500),
+                Author = "John Doe",
+                ISBN = "1234567890123",
+                YearPublished = 2021,
+                Genre = "Fiction",
+                Pages = 100,
+                Price = 19.99
+            };
 
-            // Act
-
-            // Assert
-            //Assert.ThrowsAsync<ValidationException>(() => _bookManager.AddAsync(invalidBook));
+            // Act & Assert
+            var exception = Assert.ThrowsAsync<ValidationException>(() => _bookManager.AddAsync(invalidBook));
+            Assert.Equal(("Book is invalid."), exception.Result.Message);
         }
 
         [Fact]

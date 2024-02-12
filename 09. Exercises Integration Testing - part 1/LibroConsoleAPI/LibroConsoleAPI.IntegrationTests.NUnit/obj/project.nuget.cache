@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "89G16NOLT1pMCE0htjm94vkF1FePzBa2iv/gI2qxj+yH4OZtEdtBDtCF8P7sGND6r7y9epyYlijVu7MFoUijww==",
+  "dgSpecHash": "oK1c2Ar0p6wQdMGkqY4MdqkjPzSulhtIC0aZx0V34JmDKwxYxF5vzH85LmyzxSGOHK7E0chExUcn/vIVhq5i2A==",
   "success": true,
-  "projectFilePath": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\12-Exercise-Integration-Testing-LibroConsoleAPI-TestClassesCreated_MethodsNotImplemented\\LibroConsoleAPI.IntegrationTests.NUnit\\LibroConsoleAPI.IntegrationTests.NUnit.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI.IntegrationTests.NUnit\\LibroConsoleAPI.IntegrationTests.NUnit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

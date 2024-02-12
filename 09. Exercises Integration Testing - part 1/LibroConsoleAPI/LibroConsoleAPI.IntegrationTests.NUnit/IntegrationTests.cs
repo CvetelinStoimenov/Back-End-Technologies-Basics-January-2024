@@ -5,6 +5,7 @@ using LibroConsoleAPI.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -54,16 +55,35 @@ namespace LibroConsoleAPI.IntegrationTests.NUnit
             Assert.AreEqual("John Doe", bookInDb.Author);
         }
 
+        [Test]
         public async Task AddBookAsync_TryToAddBookWithInvalidCredentials_ShouldThrowException()
         {
             // Arrange
+            var invalidBook = new Book
+            {
+                Title = new string ('A', 500),
+                Author = "John Doe",
+                ISBN = "1234567890123",
+                YearPublished = 2021,
+                Genre = "Fiction",
+                Pages = 100,
+                Price = 19.99
+            };
 
-            // Act
+            // Act and Assert
+            var exception = Assert.ThrowsAsync<ValidationException>(() => bookManager.AddAsync(invalidBook));
+            Assert.That(exception.Message, Is.EqualTo("Book is invalid."));
 
+            // Using a method as a delegate
+            {
+                Assert.ThrowsAsync<ValidationException>(async () => await MethodThatThrows());
+            }
 
-            // Assert
-            Assert.Inconclusive("Test not implemented yet.");
-
+            async Task MethodThatThrows()
+            {
+                await bookManager.AddAsync(invalidBook);
+                throw new ValidationException("Book is invalid.");
+            }
         }
 
         [Test]

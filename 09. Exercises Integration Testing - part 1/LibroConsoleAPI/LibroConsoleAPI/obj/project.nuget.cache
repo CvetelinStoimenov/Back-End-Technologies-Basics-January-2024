@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GNWn2/5dLW1zkXJckMynM70Zlj1ITEo5xgxfv2XzgBw74bMESdKUJHMku8NFoNouHyeaiglPCz5dyhTxfNe54w==",
+  "dgSpecHash": "BFB+AJrkmOI3HQPnrnpwoskSUNNqBIKbFtTgnkrr2T41u3UcVu3NAZ8Z+eMaAiYPgUA8TDnotCMcd3GIYoNEKQ==",
   "success": true,
-  "projectFilePath": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\12-Exercise-Integration-Testing-LibroConsoleAPI-TestClassesCreated_MethodsNotImplemented\\LibroConsoleAPI\\LibroConsoleAPI.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI\\LibroConsoleAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
