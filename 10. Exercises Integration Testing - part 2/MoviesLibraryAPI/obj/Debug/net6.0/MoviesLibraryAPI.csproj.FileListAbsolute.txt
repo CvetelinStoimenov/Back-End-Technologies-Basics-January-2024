@@ -55,3 +55,4 @@ C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercise
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\MoviesLibraryAPI\obj\Debug\net6.0\MoviesLibraryAPI.pdb
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\MoviesLibraryAPI\obj\Debug\net6.0\MoviesLibraryAPI.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\MoviesLibraryAPI\obj\Debug\net6.0\ref\MoviesLibraryAPI.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\MoviesLibraryAPI\bin\Debug\net6.0\nunit.framework.legacy.dll

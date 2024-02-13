@@ -114,10 +114,8 @@ C:\Users\Lenovo\source\repos\IntegrationTesting\08. Integration Testing\TownsApp
 C:\Users\Lenovo\source\repos\IntegrationTesting\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\obj\Debug\net6.0\TownApplication.IntegrationTests.pdb
 C:\Users\Lenovo\source\repos\IntegrationTesting\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\obj\Debug\net6.0\TownApplication.IntegrationTests.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\IntegrationTesting\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\obj\Debug\net6.0\ref\TownApplication.IntegrationTests.dll
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\bin\Debug\net6.0\CoverletSourceRootsMapping
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\bin\Debug\net6.0\testhost.exe
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\bin\Debug\net6.0\testhost.dll
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\bin\Debug\net6.0\TownsApplication.deps.json
@@ -231,3 +229,5 @@ C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integrat
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\obj\Debug\net6.0\TownApplication.IntegrationTests.pdb
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\obj\Debug\net6.0\TownApplication.IntegrationTests.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\obj\Debug\net6.0\ref\TownApplication.IntegrationTests.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\bin\Debug\net6.0\CoverletSourceRootsMapping_TownApplication.IntegrationTests
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\08. Integration Testing\TownsApplication\TownApplication.IntegrationTests\bin\Debug\net6.0\xunit.runner.visualstudio.testadapter.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ItemManagementApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bc315fe27c91b9e4590e703e49941c953bbe214")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a09e5fa2a9c4870bbcfbdd876e098f88ad23567b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ItemManagementApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ItemManagementApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

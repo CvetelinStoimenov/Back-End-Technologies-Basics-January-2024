@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\GetGreeting.exe
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\GetGreeting.deps.json
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\GetGreeting.runtimeconfig.json
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\GetGreeting.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\GetGreeting.pdb
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\GetGreeting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\GetGreeting.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\GetGreeting.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\GetGreeting.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\GetGreeting.sourcelink.json
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\GetGreeting.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\refint\GetGreeting.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\GetGreeting.pdb
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\GetGreeting.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\ref\GetGreeting.dll

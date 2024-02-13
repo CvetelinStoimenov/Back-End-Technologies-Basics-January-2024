@@ -1,10 +1,8 @@
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\CoverletSourceRootsMapping
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\testhost.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\MoviesLibraryAPI.deps.json
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\MoviesLibraryAPI.runtimeconfig.json
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\MoviesLibraryAPI.exe
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\testhost.exe
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\appsettings.json
@@ -142,3 +140,6 @@ C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercise
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\obj\Debug\net6.0\MoviesLibraryAPI.IntegrationTests.XUnit.pdb
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\obj\Debug\net6.0\MoviesLibraryAPI.IntegrationTests.XUnit.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\obj\Debug\net6.0\ref\MoviesLibraryAPI.IntegrationTests.XUnit.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\CoverletSourceRootsMapping_MoviesLibraryAPI.IntegrationTests.XUnit
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\TestProject1\bin\Debug\net6.0\nunit.framework.legacy.dll
