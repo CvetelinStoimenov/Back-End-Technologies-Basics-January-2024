@@ -25,6 +25,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesLibraryAPI.Integratio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesLibraryAPI.IntegrationTests.XUnit", "10. Exercises Integration Testing - part 2\TestProject1\MoviesLibraryAPI.IntegrationTests.XUnit.csproj", "{D9A7A744-25B3-42EE-A61B-89D0056A3DC7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11. Unit Testing with Mocking", "11. Unit Testing with Mocking", "{32B4F301-B9A0-4BBC-AD75-F6B48AA138DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetGreeting", "11. Unit Testing with Mocking\GetGreeting\GetGreeting.csproj", "{520F2BE6-1FA8-44C1-A9D4-661D562C65BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ItemManagementApp", "11. Unit Testing with Mocking\ItemManagement\ItemManagementApp\ItemManagementApp.csproj", "{67470A9F-8113-4BE5-9A93-FA5CDAB73E3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ItemManagementLib", "11. Unit Testing with Mocking\ItemManagement\ItemManagementLib\ItemManagementLib.csproj", "{6E62C2DD-767E-4E25-8FA8-8E0E270EFA7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ItemManagementTests", "11. Unit Testing with Mocking\ItemManagement\ItemManagementTests\ItemManagementTests.csproj", "{92AA96D2-0F86-4172-A301-18B826F2C915}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +73,22 @@ Global
 		{D9A7A744-25B3-42EE-A61B-89D0056A3DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9A7A744-25B3-42EE-A61B-89D0056A3DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9A7A744-25B3-42EE-A61B-89D0056A3DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520F2BE6-1FA8-44C1-A9D4-661D562C65BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520F2BE6-1FA8-44C1-A9D4-661D562C65BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520F2BE6-1FA8-44C1-A9D4-661D562C65BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520F2BE6-1FA8-44C1-A9D4-661D562C65BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67470A9F-8113-4BE5-9A93-FA5CDAB73E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67470A9F-8113-4BE5-9A93-FA5CDAB73E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67470A9F-8113-4BE5-9A93-FA5CDAB73E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67470A9F-8113-4BE5-9A93-FA5CDAB73E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E62C2DD-767E-4E25-8FA8-8E0E270EFA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E62C2DD-767E-4E25-8FA8-8E0E270EFA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E62C2DD-767E-4E25-8FA8-8E0E270EFA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E62C2DD-767E-4E25-8FA8-8E0E270EFA7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92AA96D2-0F86-4172-A301-18B826F2C915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AA96D2-0F86-4172-A301-18B826F2C915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AA96D2-0F86-4172-A301-18B826F2C915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AA96D2-0F86-4172-A301-18B826F2C915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +102,10 @@ Global
 		{44EF9A9D-F6B2-41C9-AA61-6FFFE091CA5D} = {8D92ABAC-1B79-4766-8649-1C6C250BD780}
 		{925DCC9A-BC99-4A34-A027-0924D8BDC7E4} = {8D92ABAC-1B79-4766-8649-1C6C250BD780}
 		{D9A7A744-25B3-42EE-A61B-89D0056A3DC7} = {8D92ABAC-1B79-4766-8649-1C6C250BD780}
+		{520F2BE6-1FA8-44C1-A9D4-661D562C65BC} = {32B4F301-B9A0-4BBC-AD75-F6B48AA138DB}
+		{67470A9F-8113-4BE5-9A93-FA5CDAB73E3E} = {32B4F301-B9A0-4BBC-AD75-F6B48AA138DB}
+		{6E62C2DD-767E-4E25-8FA8-8E0E270EFA7B} = {32B4F301-B9A0-4BBC-AD75-F6B48AA138DB}
+		{92AA96D2-0F86-4172-A301-18B826F2C915} = {32B4F301-B9A0-4BBC-AD75-F6B48AA138DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1CA4E0B6-227A-4D38-AA96-7C7B05634C1C}
