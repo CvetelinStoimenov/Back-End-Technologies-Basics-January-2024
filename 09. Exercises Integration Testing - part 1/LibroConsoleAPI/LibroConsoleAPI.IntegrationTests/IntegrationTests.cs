@@ -241,11 +241,24 @@ namespace LibroConsoleAPI.IntegrationTests
         [Fact]
         public async Task UpdateAsync_WithInvalidBook_ShouldThrowValidationException()
         {
-            // Arrange
-
             // Act
+            var newBook = new Book
+            {
 
-            // Assert
+            };
+
+            //Assert
+            var exception = Assert.ThrowsAsync<ValidationException>(() => _bookManager.UpdateAsync(newBook));
+            await Assert.ThrowsAsync<ValidationException>(() => _bookManager.UpdateAsync(newBook));
+            Assert.Equal(("Book is invalid."), exception.Result.Message);
+            try
+            {
+                await _bookManager.UpdateAsync(newBook);
+            }
+            catch (Exception ex)
+            {
+                Assert.Equal(ex.Message, ("Book is invalid."));
+            }
         }
 
     }

@@ -11,11 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TownApplication.Integration
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Exercises Integration Testing - part 1", "09. Exercises Integration Testing - part 1", "{51516082-7851-4C31-890D-0B33294E893E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibroConsoleAPI.IntegrationTests.NUnit", "..\Back-End Technologies Basics - 01.2024\09. Exercises Integration Testing - part 1\LibroConsoleAPI\LibroConsoleAPI.IntegrationTests.NUnit\LibroConsoleAPI.IntegrationTests.NUnit.csproj", "{C3FA6F76-3045-4254-9CE5-042E262B1971}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibroConsoleAPI.IntegrationTests.NUnit", "09. Exercises Integration Testing - part 1\LibroConsoleAPI\LibroConsoleAPI.IntegrationTests.NUnit\LibroConsoleAPI.IntegrationTests.NUnit.csproj", "{C3FA6F76-3045-4254-9CE5-042E262B1971}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibroConsoleAPI.IntegrationTests.XUnit", "..\Back-End Technologies Basics - 01.2024\09. Exercises Integration Testing - part 1\LibroConsoleAPI\LibroConsoleAPI.IntegrationTests\LibroConsoleAPI.IntegrationTests.XUnit.csproj", "{BFFD7EDC-AEFE-4228-94F8-07D492262074}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibroConsoleAPI.IntegrationTests.XUnit", "09. Exercises Integration Testing - part 1\LibroConsoleAPI\LibroConsoleAPI.IntegrationTests\LibroConsoleAPI.IntegrationTests.XUnit.csproj", "{BFFD7EDC-AEFE-4228-94F8-07D492262074}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibroConsoleAPI", "..\Back-End Technologies Basics - 01.2024\09. Exercises Integration Testing - part 1\LibroConsoleAPI\LibroConsoleAPI\LibroConsoleAPI.csproj", "{31FA7C8B-3A86-4B05-A42B-A3835BD8B559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibroConsoleAPI", "09. Exercises Integration Testing - part 1\LibroConsoleAPI\LibroConsoleAPI\LibroConsoleAPI.csproj", "{31FA7C8B-3A86-4B05-A42B-A3835BD8B559}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Exercises Integration Testing - part 2", "10. Exercises Integration Testing - part 2", "{8D92ABAC-1B79-4766-8649-1C6C250BD780}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesLibraryAPI", "10. Exercises Integration Testing - part 2\MoviesLibraryAPI\MoviesLibraryAPI.csproj", "{44EF9A9D-F6B2-41C9-AA61-6FFFE091CA5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesLibraryAPI.IntegrationTests.NUnit", "10. Exercises Integration Testing - part 2\MoviesLibraryAPI.Tests\MoviesLibraryAPI.IntegrationTests.NUnit.csproj", "{925DCC9A-BC99-4A34-A027-0924D8BDC7E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesLibraryAPI.IntegrationTests.XUnit", "10. Exercises Integration Testing - part 2\TestProject1\MoviesLibraryAPI.IntegrationTests.XUnit.csproj", "{D9A7A744-25B3-42EE-A61B-89D0056A3DC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +51,18 @@ Global
 		{31FA7C8B-3A86-4B05-A42B-A3835BD8B559}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31FA7C8B-3A86-4B05-A42B-A3835BD8B559}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31FA7C8B-3A86-4B05-A42B-A3835BD8B559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44EF9A9D-F6B2-41C9-AA61-6FFFE091CA5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44EF9A9D-F6B2-41C9-AA61-6FFFE091CA5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44EF9A9D-F6B2-41C9-AA61-6FFFE091CA5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44EF9A9D-F6B2-41C9-AA61-6FFFE091CA5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925DCC9A-BC99-4A34-A027-0924D8BDC7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925DCC9A-BC99-4A34-A027-0924D8BDC7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925DCC9A-BC99-4A34-A027-0924D8BDC7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925DCC9A-BC99-4A34-A027-0924D8BDC7E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A7A744-25B3-42EE-A61B-89D0056A3DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A7A744-25B3-42EE-A61B-89D0056A3DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A7A744-25B3-42EE-A61B-89D0056A3DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A7A744-25B3-42EE-A61B-89D0056A3DC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +73,9 @@ Global
 		{C3FA6F76-3045-4254-9CE5-042E262B1971} = {51516082-7851-4C31-890D-0B33294E893E}
 		{BFFD7EDC-AEFE-4228-94F8-07D492262074} = {51516082-7851-4C31-890D-0B33294E893E}
 		{31FA7C8B-3A86-4B05-A42B-A3835BD8B559} = {51516082-7851-4C31-890D-0B33294E893E}
+		{44EF9A9D-F6B2-41C9-AA61-6FFFE091CA5D} = {8D92ABAC-1B79-4766-8649-1C6C250BD780}
+		{925DCC9A-BC99-4A34-A027-0924D8BDC7E4} = {8D92ABAC-1B79-4766-8649-1C6C250BD780}
+		{D9A7A744-25B3-42EE-A61B-89D0056A3DC7} = {8D92ABAC-1B79-4766-8649-1C6C250BD780}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1CA4E0B6-227A-4D38-AA96-7C7B05634C1C}
