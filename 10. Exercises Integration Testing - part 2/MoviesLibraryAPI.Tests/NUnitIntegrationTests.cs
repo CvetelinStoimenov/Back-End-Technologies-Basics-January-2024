@@ -5,6 +5,7 @@ using MoviesLibraryAPI.Controllers.Contracts;
 using MoviesLibraryAPI.Data.Models;
 using MoviesLibraryAPI.Services;
 using MoviesLibraryAPI.Services.Contracts;
+using NUnit.Framework.Legacy;
 using System.ComponentModel.DataAnnotations;
 
 namespace MoviesLibraryAPI.Tests
@@ -60,7 +61,7 @@ namespace MoviesLibraryAPI.Tests
 
             // Assert
             var resultMovie = await _dbContext.Movies.Find(m => m.Title == "Test Movie").FirstOrDefaultAsync();
-            Assert.IsNotNull(resultMovie);
+            ClassicAssert.IsNotNull(resultMovie);
         }
 
         [Test]
@@ -116,7 +117,7 @@ namespace MoviesLibraryAPI.Tests
             var result = await _controller.GetAllAsync();
 
             // Assert
-            Assert.IsEmpty(result);
+            ClassicAssert.IsEmpty(result);
         }
 
         [Test]

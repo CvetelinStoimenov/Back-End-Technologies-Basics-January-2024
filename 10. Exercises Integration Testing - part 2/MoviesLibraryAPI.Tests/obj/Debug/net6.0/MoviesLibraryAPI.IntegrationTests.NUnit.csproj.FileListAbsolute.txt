@@ -1,4 +1,3 @@
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\MoviesLibraryAPI.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\MoviesLibraryAPI.Tests\bin\Debug\net6.0\testhost.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\MoviesLibraryAPI.Tests\bin\Debug\net6.0\MoviesLibraryAPI.deps.json
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\MoviesLibraryAPI.Tests\bin\Debug\net6.0\MoviesLibraryAPI.runtimeconfig.json
@@ -144,3 +143,4 @@ C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercise
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\MoviesLibraryAPI.Tests\obj\Debug\net6.0\MoviesLibraryAPI.IntegrationTests.NUnit.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\MoviesLibraryAPI.Tests\obj\Debug\net6.0\ref\MoviesLibraryAPI.IntegrationTests.NUnit.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\MoviesLibraryAPI.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping_MoviesLibraryAPI.IntegrationTests.NUnit
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\10. Exercises Integration Testing - part 2\MoviesLibraryAPI.Tests\bin\Debug\net6.0\nunit.framework.legacy.dll
