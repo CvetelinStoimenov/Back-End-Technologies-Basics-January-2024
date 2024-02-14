@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mG+q/PQGSu6s82EzB1M2XwodwleJbFrSOot864Vj9ZbbL9eTFFGBA7FxzX00/7F0zx4q/0f/RQuWmV1JDyBjbg==",
+  "dgSpecHash": "13l394YJhchTNQlNnnb9Qmu+ASTFzEmtfLlHrk6NktbMH6xKf3VJ3CX3daJEIGAX9A84kfZfkUTQvhQPmn2S2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\10. Exercises Integration Testing - part 2\\TestProject1\\MoviesLibraryAPI.IntegrationTests.XUnit.csproj",
   "expectedPackageFiles": [

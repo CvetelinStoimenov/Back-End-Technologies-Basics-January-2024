@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oK1c2Ar0p6wQdMGkqY4MdqkjPzSulhtIC0aZx0V34JmDKwxYxF5vzH85LmyzxSGOHK7E0chExUcn/vIVhq5i2A==",
+  "dgSpecHash": "rxF5WngwzFfDSaJZ6s3YFqM8qfjEanNZgL1b0n5iU4VcPIDWSFHoN3zBoeygfLv1V45/kmbpzQBA/V7LYqjIpw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI.IntegrationTests.NUnit\\LibroConsoleAPI.IntegrationTests.NUnit.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lenovo\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

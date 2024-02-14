@@ -187,7 +187,7 @@ namespace LibroConsoleAPI.IntegrationTests.NUnit
         }
 
         [Test]
-        public async Task SearchByTitleAsync_WithInvalidTitleFragment_ShouldThrowKeyNotFoundException()
+        public async Task SearchByTitleAsync_WithEmptyTitleFragment_ShouldThrowKeyNotFoundException()
         {
             // Act & Assert
             var exception = Assert.ThrowsAsync<ArgumentException>(() => bookManager.SearchByTitleAsync(""));
@@ -197,6 +197,43 @@ namespace LibroConsoleAPI.IntegrationTests.NUnit
             try
             {
                 await bookManager.SearchByTitleAsync("   ");
+            }
+            catch (Exception ex)
+            {
+                Assert.That(ex.Message, Is.EqualTo("Title fragment cannot be empty."));
+            }
+        }
+
+        
+        [Test]
+        public async Task SearchByTitleAsync_WithInvalidTitleFragment_ShouldThrowKeyNotFoundException()
+        {
+            // Act & Assert
+            var exception = Assert.ThrowsAsync<KeyNotFoundException>(() => bookManager.SearchByTitleAsync("KOs"));
+            Assert.ThrowsAsync<KeyNotFoundException>(() => bookManager.SearchByTitleAsync("KOs"));
+            Assert.That(exception.Message, Is.EqualTo("No books found with the given title fragment."));
+
+            try
+            {
+                await bookManager.SearchByTitleAsync("KOs");
+            }
+            catch (Exception ex)
+            {
+                Assert.That(ex.Message, Is.EqualTo("No books found with the given title fragment."));
+            }
+        }
+
+        [Test]
+        public async Task SearchByTitleAsync_WithNullTitleFragment_ShouldThrowKeyNotFoundException()
+        {
+            // Act & Assert
+            var exception = Assert.ThrowsAsync<ArgumentException>(() => bookManager.SearchByTitleAsync(null));
+            Assert.ThrowsAsync<ArgumentException>(() => bookManager.SearchByTitleAsync(null));
+            Assert.That(exception.Message, Is.EqualTo("Title fragment cannot be empty."));
+
+            try
+            {
+                await bookManager.SearchByTitleAsync(null);
             }
             catch (Exception ex)
             {
@@ -290,6 +327,26 @@ namespace LibroConsoleAPI.IntegrationTests.NUnit
             {
                 Assert.That(ex.Message, Is.EqualTo("Book is invalid."));
             }
+
+        }
+
+        [Test]
+        public async Task UpdateAsync_WithNulldBook_ShouldThrowValidationException()
+        {
+
+            //Assert
+            var exception = Assert.ThrowsAsync<ValidationException>(() => bookManager.UpdateAsync(null));
+            Assert.ThrowsAsync<ValidationException>(() => bookManager.UpdateAsync(null));
+            Assert.That(exception.Message, Is.EqualTo("Book is invalid."));
+            try
+            {
+                await bookManager.UpdateAsync(null);
+            }
+            catch (Exception ex)
+            {
+                Assert.That(ex.Message, Is.EqualTo("Book is invalid."));
+            }
+
         }
     }
 }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rS4sF5XjLCluub0l2nXuPpLk8oLQEgL3hWc8t8l5d+2bpnhguZKHNiwFqZlwxNqcbzSSSZ7r4CJEN+dfKS8tvA==",
+  "dgSpecHash": "vu2eik2ML2HkCJBQyrDGUv8LgGCuDhVgy2cN5FfE3mPaKUxtAXInULEmsP5G8Fe+vyp/1QNFSUX5ec2sjc0cNQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\10. Exercises Integration Testing - part 2\\MoviesLibraryAPI\\MoviesLibraryAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
