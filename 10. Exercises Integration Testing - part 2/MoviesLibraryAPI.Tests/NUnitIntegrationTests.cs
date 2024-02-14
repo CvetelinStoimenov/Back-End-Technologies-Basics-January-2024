@@ -62,6 +62,8 @@ namespace MoviesLibraryAPI.Tests
             // Assert
             var resultMovie = await _dbContext.Movies.Find(m => m.Title == "Test Movie").FirstOrDefaultAsync();
             Assert.That(resultMovie, Is.Not.Null);
+            Assert.That(resultMovie.Title, Is.EqualTo("Test Movie"));
+            Assert.That(resultMovie.Director, Is.EqualTo("Test Director"));
         }
 
         [Test]
@@ -125,7 +127,8 @@ namespace MoviesLibraryAPI.Tests
                 Rating = 7.5
             };
             await _controller.AddAsync(movie);
-            Assert.ThrowsAsync<ArgumentException>(() => _controller.DeleteAsync(null));
+            var result = Assert.ThrowsAsync<ArgumentException>(() => _controller.DeleteAsync(null));
+            Assert.That(result.Message, Is.EqualTo("Title cannot be empty."));
         }
 
         [Test]
@@ -142,7 +145,8 @@ namespace MoviesLibraryAPI.Tests
                 Rating = 7.5
             };
             await _controller.AddAsync(movie);
-            Assert.ThrowsAsync<ArgumentException>(() => _controller.DeleteAsync(""));
+            var result = Assert.ThrowsAsync<ArgumentException>(() => _controller.DeleteAsync(""));
+            Assert.That(result.Message, Is.EqualTo("Title cannot be empty."));
         }
 
         [Test]
@@ -241,15 +245,41 @@ namespace MoviesLibraryAPI.Tests
             var result = await _controller.GetByTitle("Test Movie");
 
             // Assert
+            Assert.That(result.Director, Is.EqualTo($"{firstMovie.Director}"));
+            Assert.That(result.Title, Is.EqualTo($"{firstMovie.Title}"));
         }
 
         [Test]
         public async Task GetByTitle_WhenTitleDoesNotExist_ShouldReturnNull()
         {
+            // Arrange
+            var firstMovie = new Movie
+            {
+                Title = "Test Movie",
+                Director = "Test Director",
+                YearReleased = 2022,
+                Genre = "Action",
+                Duration = 86,
+                Rating = 7.5
+            };
+
+            var secondMovie = new Movie
+            {
+                Title = "Some Title",
+                Director = firstMovie.Director,
+                YearReleased = 2000,
+                Genre = "Action",
+                Duration = 90,
+                Rating = 10
+            };
+            await _controller.AddAsync(firstMovie);
+            await _controller.AddAsync(secondMovie);
+
             // Act
+            var resultMovie = await _controller.GetByTitle("Does Not Exist");
 
             // Assert
-            //Assert.IsNull(resultMovie);
+            Assert.That(resultMovie, Is.Null);
         }
 
 
@@ -257,37 +287,96 @@ namespace MoviesLibraryAPI.Tests
         public async Task SearchByTitleFragmentAsync_WhenTitleFragmentExists_ShouldReturnMatchingMovies()
         {
             // Arrange
+            var firstMovie = new Movie
+            {
+                Title = "Test Movie",
+                Director = "Test Director",
+                YearReleased = 2022,
+                Genre = "Action",
+                Duration = 86,
+                Rating = 7.5
+            };
+
+            var secondMovie = new Movie
+            {
+                Title = "Some Title",
+                Director = firstMovie.Director,
+                YearReleased = 2000,
+                Genre = "Action",
+                Duration = 90,
+                Rating = 10
+            };
+            await _controller.AddAsync(firstMovie);
+            await _controller.AddAsync(secondMovie);
 
             // Act
+            var result = await _controller.SearchByTitleFragmentAsync("Test");
 
-            // Assert // Should return one matching movie
+
+            // Assert
+            // Ensure that all movies are returned
+            Assert.That(result, Is.Not.Null);
+            Assert.That(result, Is.Not.Empty);
+            Assert.That(result.ToList(), Is.EqualTo(result.Where(x => x.Title == "Test Movie")));
+            Assert.That(result.ToList(), Is.EqualTo(result.Where(x => x.Director == "Test Director")));
         }
 
         [Test]
         public async Task SearchByTitleFragmentAsync_WhenNoMatchingTitleFragment_ShouldThrowKeyNotFoundException()
         {
             // Act and Assert
+            var result = Assert.ThrowsAsync<KeyNotFoundException>(() => _controller.SearchByTitleFragmentAsync("KO"));
+            Assert.That(result.Message, Is.EqualTo("No movies found."));
         }
 
         [Test]
         public async Task UpdateAsync_WhenValidMovieProvided_ShouldUpdateMovie()
         {
             // Arrange
+            var movie = new Movie
+            {
+                Title = "Test Movie",
+                Director = "Test Director",
+                YearReleased = 2022,
+                Genre = "Action",
+                Duration = 86,
+                Rating = 7.5
+            };
+            await _controller.AddAsync(movie);
 
             // Modify the movie
+            movie.Title = "Updated Title";
 
             // Act
+            await _controller.UpdateAsync(movie);
 
             // Assert
+            Assert.That(movie, Is.Not.Null);
+            Assert.That(movie.Title, Is.EqualTo("Updated Title"));
+            var bookInDb = _dbContext.Movies.Find(b => b.Title == "UpdatedTitle").FirstOrDefaultAsync();
         }
 
         [Test]
         public async Task UpdateAsync_WhenInvalidMovieProvided_ShouldThrowValidationException()
         {
-            // Arrange
-            // Movie without required fields
+            // Act
+            var newMovie = new Movie
+            {
 
-            // Act and Assert
+            };
+
+            //Assert
+            var exception = Assert.ThrowsAsync<ValidationException>(() => _controller.UpdateAsync(newMovie));
+            Assert.ThrowsAsync<ValidationException>(() => _controller.UpdateAsync(newMovie));
+            Assert.That(exception.Message, Is.EqualTo(("Movie is not valid.")));
+            try
+            {
+                await _controller.UpdateAsync(newMovie);
+            }
+            catch (Exception ex)
+            {
+                Assert.That(ex.Message, Is.EqualTo(("Movie is not valid.")));
+            }
         }
 
 

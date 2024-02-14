@@ -257,7 +257,7 @@ namespace LibroConsoleAPI.IntegrationTests
             }
             catch (Exception ex)
             {
-                Assert.Equal(ex.Message, ("Book is invalid."));
+                Assert.Equal(("Book is invalid."), ex.Message);
             }
         }
 
