@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibroConsoleAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+985b6eadea62eacaf11e674e9908182fe9013394")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb10afb2e23f001aec3e32c8df2b400e5ec4d1af")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibroConsoleAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibroConsoleAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
