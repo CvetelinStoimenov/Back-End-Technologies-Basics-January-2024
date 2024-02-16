@@ -1,90 +1,90 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.7284999999999999" branch-rate="0.75" version="1.9" timestamp="1708079931" lines-covered="51" lines-valid="70" branches-covered="9" branches-valid="12">
+<coverage line-rate="0.7532" branch-rate="1" version="1.9" timestamp="1708080338" lines-covered="58" lines-valid="77" branches-covered="12" branches-valid="12">
   <sources>
     <source>Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\</source>
     <source>C:\Users\Lenovo\</source>
   </sources>
   <packages>
-    <package name="GetGreeting" line-rate="0.5" branch-rate="0.75" complexity="18">
+    <package name="GetGreeting" line-rate="0.5" branch-rate="1" complexity="18">
       <classes>
-        <class name="GetGreeting.GreetingProvider" filename="GreetingProvider.cs" line-rate="1" branch-rate="0.75" complexity="13">
+        <class name="GetGreeting.GreetingProvider" filename="GreetingProvider.cs" line-rate="1" branch-rate="1" complexity="13">
           <methods>
-            <method name="GetGreeting" signature="()" line-rate="1" branch-rate="0.75" complexity="12">
+            <method name="GetGreeting" signature="()" line-rate="1" branch-rate="1" complexity="12">
               <lines>
-                <line number="18" hits="4" branch="False" />
-                <line number="19" hits="4" branch="False" />
-                <line number="21" hits="4" branch="True" condition-coverage="75% (3/4)">
+                <line number="18" hits="8" branch="False" />
+                <line number="19" hits="8" branch="False" />
+                <line number="21" hits="8" branch="True" condition-coverage="100% (4/4)">
                   <conditions>
-                    <condition number="23" type="jump" coverage="50%" />
+                    <condition number="23" type="jump" coverage="100%" />
                     <condition number="35" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="22" hits="1" branch="False" />
-                <line number="23" hits="1" branch="False" />
-                <line number="25" hits="3" branch="True" condition-coverage="75% (3/4)">
+                <line number="22" hits="2" branch="False" />
+                <line number="23" hits="2" branch="False" />
+                <line number="25" hits="6" branch="True" condition-coverage="100% (4/4)">
                   <conditions>
-                    <condition number="49" type="jump" coverage="50%" />
+                    <condition number="49" type="jump" coverage="100%" />
                     <condition number="63" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="26" hits="1" branch="False" />
-                <line number="27" hits="1" branch="False" />
-                <line number="29" hits="2" branch="True" condition-coverage="75% (3/4)">
+                <line number="26" hits="2" branch="False" />
+                <line number="27" hits="2" branch="False" />
+                <line number="29" hits="4" branch="True" condition-coverage="100% (4/4)">
                   <conditions>
-                    <condition number="77" type="jump" coverage="50%" />
+                    <condition number="77" type="jump" coverage="100%" />
                     <condition number="91" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="30" hits="1" branch="False" />
-                <line number="31" hits="1" branch="False" />
-                <line number="34" hits="1" branch="False" />
-                <line number="35" hits="1" branch="False" />
-                <line number="37" hits="4" branch="False" />
+                <line number="30" hits="2" branch="False" />
+                <line number="31" hits="2" branch="False" />
+                <line number="34" hits="2" branch="False" />
+                <line number="35" hits="2" branch="False" />
+                <line number="37" hits="8" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(GetGreeting.ITimeProvider)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="4" branch="False" />
-                <line number="13" hits="4" branch="False" />
-                <line number="14" hits="4" branch="False" />
-                <line number="15" hits="4" branch="False" />
+                <line number="12" hits="8" branch="False" />
+                <line number="13" hits="8" branch="False" />
+                <line number="14" hits="8" branch="False" />
+                <line number="15" hits="8" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="18" hits="4" branch="False" />
-            <line number="19" hits="4" branch="False" />
-            <line number="21" hits="4" branch="True" condition-coverage="75% (3/4)">
+            <line number="18" hits="8" branch="False" />
+            <line number="19" hits="8" branch="False" />
+            <line number="21" hits="8" branch="True" condition-coverage="100% (4/4)">
               <conditions>
-                <condition number="23" type="jump" coverage="50%" />
+                <condition number="23" type="jump" coverage="100%" />
                 <condition number="35" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="22" hits="1" branch="False" />
-            <line number="23" hits="1" branch="False" />
-            <line number="25" hits="3" branch="True" condition-coverage="75% (3/4)">
+            <line number="22" hits="2" branch="False" />
+            <line number="23" hits="2" branch="False" />
+            <line number="25" hits="6" branch="True" condition-coverage="100% (4/4)">
               <conditions>
-                <condition number="49" type="jump" coverage="50%" />
+                <condition number="49" type="jump" coverage="100%" />
                 <condition number="63" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="26" hits="1" branch="False" />
-            <line number="27" hits="1" branch="False" />
-            <line number="29" hits="2" branch="True" condition-coverage="75% (3/4)">
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="29" hits="4" branch="True" condition-coverage="100% (4/4)">
               <conditions>
-                <condition number="77" type="jump" coverage="50%" />
+                <condition number="77" type="jump" coverage="100%" />
                 <condition number="91" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="30" hits="1" branch="False" />
-            <line number="31" hits="1" branch="False" />
-            <line number="34" hits="1" branch="False" />
-            <line number="35" hits="1" branch="False" />
-            <line number="37" hits="4" branch="False" />
-            <line number="12" hits="4" branch="False" />
-            <line number="13" hits="4" branch="False" />
-            <line number="14" hits="4" branch="False" />
-            <line number="15" hits="4" branch="False" />
+            <line number="30" hits="2" branch="False" />
+            <line number="31" hits="2" branch="False" />
+            <line number="34" hits="2" branch="False" />
+            <line number="35" hits="2" branch="False" />
+            <line number="37" hits="8" branch="False" />
+            <line number="12" hits="8" branch="False" />
+            <line number="13" hits="8" branch="False" />
+            <line number="14" hits="8" branch="False" />
+            <line number="15" hits="8" branch="False" />
           </lines>
         </class>
         <class name="GetGreeting.SystemTimeProvider" filename="ITimeProvider.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -169,7 +169,7 @@
         </class>
       </classes>
     </package>
-    <package name="GreetingProvider.Nunit.Tests" line-rate="0.9704999999999999" branch-rate="1" complexity="6">
+    <package name="GreetingProvider.Nunit.Tests" line-rate="0.9756" branch-rate="1" complexity="7">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -183,15 +183,15 @@
             <line number="4" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="GreetingProviderNunitTests.Tests" filename="source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GreetingProvider.Nunit.Tests\GreetingProvider.Nunit.Tests.cs" line-rate="1" branch-rate="1" complexity="5">
+        <class name="GreetingProviderNunitTests.Tests" filename="source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GreetingProvider.Nunit.Tests\GreetingProvider.Nunit.Tests.cs" line-rate="1" branch-rate="1" complexity="6">
           <methods>
             <method name="Setup" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="4" branch="False" />
-                <line number="14" hits="4" branch="False" />
-                <line number="15" hits="4" branch="False" />
-                <line number="16" hits="4" branch="False" />
-                <line number="17" hits="4" branch="False" />
+                <line number="13" hits="8" branch="False" />
+                <line number="14" hits="8" branch="False" />
+                <line number="15" hits="8" branch="False" />
+                <line number="16" hits="8" branch="False" />
+                <line number="17" hits="8" branch="False" />
               </lines>
             </method>
             <method name="GreetingAt9AmShouldBeGoodMorning" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -238,13 +238,24 @@
                 <line number="81" hits="1" branch="False" />
               </lines>
             </method>
+            <method name="GreetingShouldBeCorrectIfCorrectTimeIsGiven" signature="(System.String,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="88" hits="4" branch="False" />
+                <line number="91" hits="4" branch="False" />
+                <line number="92" hits="4" branch="False" />
+                <line number="93" hits="4" branch="False" />
+                <line number="96" hits="4" branch="False" />
+                <line number="99" hits="4" branch="False" />
+                <line number="100" hits="4" branch="False" />
+              </lines>
+            </method>
           </methods>
           <lines>
-            <line number="13" hits="4" branch="False" />
-            <line number="14" hits="4" branch="False" />
-            <line number="15" hits="4" branch="False" />
-            <line number="16" hits="4" branch="False" />
-            <line number="17" hits="4" branch="False" />
+            <line number="13" hits="8" branch="False" />
+            <line number="14" hits="8" branch="False" />
+            <line number="15" hits="8" branch="False" />
+            <line number="16" hits="8" branch="False" />
+            <line number="17" hits="8" branch="False" />
             <line number="21" hits="1" branch="False" />
             <line number="24" hits="1" branch="False" />
             <line number="25" hits="1" branch="False" />
@@ -273,6 +284,13 @@
             <line number="77" hits="1" branch="False" />
             <line number="80" hits="1" branch="False" />
             <line number="81" hits="1" branch="False" />
+            <line number="88" hits="4" branch="False" />
+            <line number="91" hits="4" branch="False" />
+            <line number="92" hits="4" branch="False" />
+            <line number="93" hits="4" branch="False" />
+            <line number="96" hits="4" branch="False" />
+            <line number="99" hits="4" branch="False" />
+            <line number="100" hits="4" branch="False" />
           </lines>
         </class>
       </classes>

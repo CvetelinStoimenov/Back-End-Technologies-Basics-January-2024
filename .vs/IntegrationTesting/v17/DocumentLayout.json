@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7B5BD00-4818-4734-B969-208DB161FCD2}|11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\11. unit testing with mocking\\greetingprovider.nunit.tests\\greetingprovider.nunit.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B5BD00-4818-4734-B969-208DB161FCD2}|11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.csproj|solutionrelative:11. unit testing with mocking\\greetingprovider.nunit.tests\\greetingprovider.nunit.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{250AAF2E-8876-42AA-AA93-EEB498B2F24E}|Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\GetGreeting\\GetGreeting.csproj|y:\\#softuni\\qa\\06. back-end technologies basics - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\getgreeting\\greetingprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{250AAF2E-8876-42AA-AA93-EEB498B2F24E}|Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\GetGreeting\\GetGreeting.csproj|y:\\#softuni\\qa\\06. back-end technologies basics - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\getgreeting\\greetingprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B5BD00-4818-4734-B969-208DB161FCD2}|11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\11. unit testing with mocking\\greetingprovider.nunit.tests\\greetingprovider.nunit.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B5BD00-4818-4734-B969-208DB161FCD2}|11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.csproj|solutionrelative:11. unit testing with mocking\\greetingprovider.nunit.tests\\greetingprovider.nunit.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +17,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,24 +25,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GreetingProvider.Nunit.Tests.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
               "RelativeDocumentMoniker": "11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
               "RelativeToolTip": "11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwAUAAAAWAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAmwFUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-16T10:18:35.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GreetingProvider.cs",
               "DocumentMoniker": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\GetGreeting\\GreetingProvider.cs",
               "ToolTip": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\GetGreeting\\GreetingProvider.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCAAAAAQAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-16T09:46:40.101Z",
               "EditorCaption": ""

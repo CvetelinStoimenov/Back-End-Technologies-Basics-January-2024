@@ -79,5 +79,24 @@ namespace GreetingProviderNunitTests
             // Assert
             Assert.That(result, Is.EqualTo("Good night!"));
         }
+
+        [TestCase("Good night!", 4)]
+        [TestCase("Good evening!", 19)]
+        [TestCase("Good afternoon!", 13)]
+        [TestCase("Good morning!", 11)]
+        public void GreetingShouldBeCorrectIfCorrectTimeIsGiven(string expectedMessage, int currentTime)
+        {
+            // Arrange
+
+            mockTimeProvider.Setup(tp =>
+                        tp.GetCurrentTime()).Returns
+                        (new DateTime(2024, 1, 1, currentTime, 0, 0));
+
+            // Act
+            string result = greetingProvider.GetGreeting();
+
+            // Assert
+            Assert.That(result, Is.EqualTo(expectedMessage));
+        }
     }
 }
