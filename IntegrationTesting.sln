@@ -47,7 +47,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetGreeting", "Y:\#SoftUni\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITimeProvider.Nunit.Tests", "ITimeProvider.Nunit.Tests\ITimeProvider.Nunit.Tests.csproj", "{918D1E7A-89B9-44D4-81C3-B86D02D99660}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreetingProvider.Nunit.Tests", "11. Unit Testing with Mocking\GreetingProvider.Nunit.Tests\GreetingProvider.Nunit.Tests.csproj", "{A7B5BD00-4818-4734-B969-208DB161FCD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreetingProvider.Nunit.Tests", "11. Unit Testing with Mocking\GreetingProvider.Nunit.Tests\GreetingProvider.Nunit.Tests.csproj", "{A7B5BD00-4818-4734-B969-208DB161FCD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14. Code Coverage", "14. Code Coverage", "{73F652DF-C78A-457A-90E3-D7E80EE3BFF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManagement", "14. Code Coverage\LibraryManagement\LibraryManagement.csproj", "{F302D940-9A9E-43F0-9E58-BDF05112A6E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManagementTest", "14. Code Coverage\LibraryManagementTest\LibraryManagementTest.csproj", "{31934875-BB93-4A23-8F33-2B2AB239B38E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +129,14 @@ Global
 		{A7B5BD00-4818-4734-B969-208DB161FCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7B5BD00-4818-4734-B969-208DB161FCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7B5BD00-4818-4734-B969-208DB161FCD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F302D940-9A9E-43F0-9E58-BDF05112A6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F302D940-9A9E-43F0-9E58-BDF05112A6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F302D940-9A9E-43F0-9E58-BDF05112A6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F302D940-9A9E-43F0-9E58-BDF05112A6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31934875-BB93-4A23-8F33-2B2AB239B38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31934875-BB93-4A23-8F33-2B2AB239B38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31934875-BB93-4A23-8F33-2B2AB239B38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31934875-BB93-4A23-8F33-2B2AB239B38E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +159,8 @@ Global
 		{250AAF2E-8876-42AA-AA93-EEB498B2F24E} = {32B4F301-B9A0-4BBC-AD75-F6B48AA138DB}
 		{918D1E7A-89B9-44D4-81C3-B86D02D99660} = {32B4F301-B9A0-4BBC-AD75-F6B48AA138DB}
 		{A7B5BD00-4818-4734-B969-208DB161FCD2} = {32B4F301-B9A0-4BBC-AD75-F6B48AA138DB}
+		{F302D940-9A9E-43F0-9E58-BDF05112A6E0} = {73F652DF-C78A-457A-90E3-D7E80EE3BFF2}
+		{31934875-BB93-4A23-8F33-2B2AB239B38E} = {73F652DF-C78A-457A-90E3-D7E80EE3BFF2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1CA4E0B6-227A-4D38-AA96-7C7B05634C1C}
