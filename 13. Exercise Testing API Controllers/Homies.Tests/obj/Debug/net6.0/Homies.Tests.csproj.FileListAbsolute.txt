@@ -349,10 +349,10 @@ C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\13. Exercise
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\13. Exercise Testing API Controllers\Homies.Tests\obj\Debug\net6.0\Homies.Tests.AssemblyInfo.cs
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\13. Exercise Testing API Controllers\Homies.Tests\obj\Debug\net6.0\Homies.Tests.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\13. Exercise Testing API Controllers\Homies.Tests\obj\Debug\net6.0\Homies.Tests.sourcelink.json
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\13. Exercise Testing API Controllers\Homies.Tests\obj\Debug\net6.0\Homies.Tests.csproj.CopyComplete
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\13. Exercise Testing API Controllers\Homies.Tests\obj\Debug\net6.0\Homies.Tests.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\13. Exercise Testing API Controllers\Homies.Tests\obj\Debug\net6.0\refint\Homies.Tests.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\13. Exercise Testing API Controllers\Homies.Tests\obj\Debug\net6.0\Homies.Tests.pdb
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\13. Exercise Testing API Controllers\Homies.Tests\obj\Debug\net6.0\Homies.Tests.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\13. Exercise Testing API Controllers\Homies.Tests\obj\Debug\net6.0\ref\Homies.Tests.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\13. Exercise Testing API Controllers\Homies.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping_Homies.Tests
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\13. Exercise Testing API Controllers\Homies.Tests\obj\Debug\net6.0\Homies.T.F3BFD551.Up2Date

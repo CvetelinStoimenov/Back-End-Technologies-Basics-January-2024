@@ -553,9 +553,11 @@ C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful 
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful API Backend Apps\Homies\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful API Backend Apps\Homies\obj\Debug\net6.0\scopedcss\bundle\Homies.styles.css
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful API Backend Apps\Homies\obj\Debug\net6.0\scopedcss\projectbundle\Homies.bundle.scp.css
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful API Backend Apps\Homies\obj\Debug\net6.0\Homies.csproj.CopyComplete
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful API Backend Apps\Homies\obj\Debug\net6.0\Homies.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful API Backend Apps\Homies\obj\Debug\net6.0\refint\Homies.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful API Backend Apps\Homies\obj\Debug\net6.0\Homies.pdb
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful API Backend Apps\Homies\obj\Debug\net6.0\Homies.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful API Backend Apps\Homies\obj\Debug\net6.0\ref\Homies.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful API Backend Apps\Homies\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful API Backend Apps\Homies\bin\Debug\net6.0\Moq.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\12. RESTful API Backend Apps\Homies\obj\Debug\net6.0\Homies.csproj.Up2Date

@@ -359,5 +359,6 @@ namespace MoviesLibraryAPI.XUnitTests
                 Assert.Equal(("Movie is not valid."), ex.Message);
             }
         }
+
     }
 }

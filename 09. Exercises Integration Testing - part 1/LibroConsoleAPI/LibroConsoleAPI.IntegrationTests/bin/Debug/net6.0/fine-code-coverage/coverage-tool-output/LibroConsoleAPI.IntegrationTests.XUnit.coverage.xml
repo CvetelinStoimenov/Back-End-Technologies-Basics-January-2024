@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0" branch-rate="0" version="1.9" timestamp="1707912655" lines-covered="0" lines-valid="499" branches-covered="0" branches-valid="80">
+<coverage line-rate="0" branch-rate="0" version="1.9" timestamp="1708079798" lines-covered="0" lines-valid="499" branches-covered="0" branches-valid="98">
   <sources>
     <source>C:\Users\Lenovo\</source>
   </sources>
   <packages>
-    <package name="LibroConsoleAPI" line-rate="0" branch-rate="0" complexity="100">
+    <package name="LibroConsoleAPI" line-rate="0" branch-rate="0" complexity="118">
       <classes>
         <class name="LibroConsoleApplication.Program/&lt;Main&gt;d__0" filename="source\repos\Back-End Technologies Basics - 01.2024\09. Exercises Integration Testing - part 1\LibroConsoleAPI\LibroConsoleAPI\Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -1102,15 +1102,15 @@
             <line number="181" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="LibroConsoleAPI.Business.Engine/&lt;Run&gt;d__0" filename="source\repos\Back-End Technologies Basics - 01.2024\09. Exercises Integration Testing - part 1\LibroConsoleAPI\LibroConsoleAPI\Business\Engine.cs" line-rate="0" branch-rate="0" complexity="16">
+        <class name="LibroConsoleAPI.Business.Engine/&lt;Run&gt;d__0" filename="source\repos\Back-End Technologies Basics - 01.2024\09. Exercises Integration Testing - part 1\LibroConsoleAPI\LibroConsoleAPI\Business\Engine.cs" line-rate="0" branch-rate="0" complexity="34">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="16">
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="34">
               <lines>
                 <line number="9" hits="0" branch="False" />
                 <line number="10" hits="0" branch="False" />
                 <line number="11" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="894" type="jump" coverage="0%" />
+                    <condition number="1064" type="jump" coverage="0%" />
                   </conditions>
                 </line>
                 <line number="12" hits="0" branch="False" />
@@ -1123,13 +1123,24 @@
                 <line number="19" hits="0" branch="False" />
                 <line number="20" hits="0" branch="False" />
                 <line number="22" hits="0" branch="False" />
-                <line number="24" hits="0" branch="True" condition-coverage="0% (0/14)">
+                <line number="24" hits="0" branch="True" condition-coverage="0% (0/32)">
                   <conditions>
-                    <condition number="205" type="jump" coverage="0%" />
-                    <condition number="219" type="jump" coverage="0%" />
-                    <condition number="240" type="switch" coverage="0%" />
-                    <condition number="271" type="jump" coverage="0%" />
+                    <condition number="217" type="jump" coverage="0%" />
+                    <condition number="225" type="jump" coverage="0%" />
+                    <condition number="238" type="jump" coverage="0%" />
+                    <condition number="264" type="jump" coverage="0%" />
+                    <condition number="272" type="jump" coverage="0%" />
+                    <condition number="295" type="jump" coverage="0%" />
+                    <condition number="251" type="jump" coverage="0%" />
                     <condition number="282" type="jump" coverage="0%" />
+                    <condition number="305" type="jump" coverage="0%" />
+                    <condition number="326" type="jump" coverage="0%" />
+                    <condition number="347" type="jump" coverage="0%" />
+                    <condition number="368" type="jump" coverage="0%" />
+                    <condition number="389" type="jump" coverage="0%" />
+                    <condition number="410" type="jump" coverage="0%" />
+                    <condition number="431" type="jump" coverage="0%" />
+                    <condition number="452" type="jump" coverage="0%" />
                   </conditions>
                 </line>
                 <line number="27" hits="0" branch="False" />
@@ -1156,7 +1167,7 @@
             <line number="10" hits="0" branch="False" />
             <line number="11" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="894" type="jump" coverage="0%" />
+                <condition number="1064" type="jump" coverage="0%" />
               </conditions>
             </line>
             <line number="12" hits="0" branch="False" />
@@ -1169,13 +1180,24 @@
             <line number="19" hits="0" branch="False" />
             <line number="20" hits="0" branch="False" />
             <line number="22" hits="0" branch="False" />
-            <line number="24" hits="0" branch="True" condition-coverage="0% (0/14)">
+            <line number="24" hits="0" branch="True" condition-coverage="0% (0/32)">
               <conditions>
-                <condition number="205" type="jump" coverage="0%" />
-                <condition number="219" type="jump" coverage="0%" />
-                <condition number="240" type="switch" coverage="0%" />
-                <condition number="271" type="jump" coverage="0%" />
+                <condition number="217" type="jump" coverage="0%" />
+                <condition number="225" type="jump" coverage="0%" />
+                <condition number="238" type="jump" coverage="0%" />
+                <condition number="264" type="jump" coverage="0%" />
+                <condition number="272" type="jump" coverage="0%" />
+                <condition number="295" type="jump" coverage="0%" />
+                <condition number="251" type="jump" coverage="0%" />
                 <condition number="282" type="jump" coverage="0%" />
+                <condition number="305" type="jump" coverage="0%" />
+                <condition number="326" type="jump" coverage="0%" />
+                <condition number="347" type="jump" coverage="0%" />
+                <condition number="368" type="jump" coverage="0%" />
+                <condition number="389" type="jump" coverage="0%" />
+                <condition number="410" type="jump" coverage="0%" />
+                <condition number="431" type="jump" coverage="0%" />
+                <condition number="452" type="jump" coverage="0%" />
               </conditions>
             </line>
             <line number="27" hits="0" branch="False" />

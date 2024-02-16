@@ -8,6 +8,10 @@ namespace GetGreeting
 {
     public class GreetingProvider
     {
+        public GreetingProvider(object @object)
+        {
+        }
+
         public string GetGreeting()
         {
             var hour = DateTime.Now.Hour;
