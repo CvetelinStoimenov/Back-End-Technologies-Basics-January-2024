@@ -3,11 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{250AAF2E-8876-42AA-AA93-EEB498B2F24E}|Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\GetGreeting\\GetGreeting.csproj|y:\\#softuni\\qa\\06. back-end technologies basics - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\getgreeting\\greetingprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92AA96D2-0F86-4172-A301-18B826F2C915}|11. Unit Testing with Mocking\\ItemManagement\\ItemManagementTests\\ItemManagementTests.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\11. unit testing with mocking\\itemmanagement\\itemmanagementtests\\itemmanagementtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92AA96D2-0F86-4172-A301-18B826F2C915}|11. Unit Testing with Mocking\\ItemManagement\\ItemManagementTests\\ItemManagementTests.csproj|solutionrelative:11. unit testing with mocking\\itemmanagement\\itemmanagementtests\\itemmanagementtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7B5BD00-4818-4734-B969-208DB161FCD2}|11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\11. unit testing with mocking\\greetingprovider.nunit.tests\\greetingprovider.nunit.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B5BD00-4818-4734-B969-208DB161FCD2}|11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.csproj|solutionrelative:11. unit testing with mocking\\greetingprovider.nunit.tests\\greetingprovider.nunit.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E62C2DD-767E-4E25-8FA8-8E0E270EFA7B}|11. Unit Testing with Mocking\\ItemManagement\\ItemManagementLib\\ItemManagementLib.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\11. unit testing with mocking\\itemmanagement\\itemmanagementlib\\repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E62C2DD-767E-4E25-8FA8-8E0E270EFA7B}|11. Unit Testing with Mocking\\ItemManagement\\ItemManagementLib\\ItemManagementLib.csproj|solutionrelative:11. unit testing with mocking\\itemmanagement\\itemmanagementlib\\repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,35 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GreetingProvider.Nunit.Tests.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
-              "RelativeDocumentMoniker": "11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
-              "RelativeToolTip": "11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAmwFUAAAAfAAAA",
+              "Title": "IItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\ItemManagement\\ItemManagementLib\\Repositories\\IItemRepository.cs",
+              "RelativeDocumentMoniker": "11. Unit Testing with Mocking\\ItemManagement\\ItemManagementLib\\Repositories\\IItemRepository.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\ItemManagement\\ItemManagementLib\\Repositories\\IItemRepository.cs",
+              "RelativeToolTip": "11. Unit Testing with Mocking\\ItemManagement\\ItemManagementLib\\Repositories\\IItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T10:18:35.771Z",
+              "WhenOpened": "2024-02-16T14:03:20.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GreetingProvider.cs",
-              "DocumentMoniker": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\GetGreeting\\GreetingProvider.cs",
-              "ToolTip": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\GetGreeting\\GreetingProvider.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBUAAAANAAAA",
+              "Title": "ItemManagementTests.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\ItemManagement\\ItemManagementTests\\ItemManagementTests.cs",
+              "RelativeDocumentMoniker": "11. Unit Testing with Mocking\\ItemManagement\\ItemManagementTests\\ItemManagementTests.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\ItemManagement\\ItemManagementTests\\ItemManagementTests.cs",
+              "RelativeToolTip": "11. Unit Testing with Mocking\\ItemManagement\\ItemManagementTests\\ItemManagementTests.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAMwCYAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-16T09:46:40.101Z",
+              "WhenOpened": "2024-02-16T13:21:53.149Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

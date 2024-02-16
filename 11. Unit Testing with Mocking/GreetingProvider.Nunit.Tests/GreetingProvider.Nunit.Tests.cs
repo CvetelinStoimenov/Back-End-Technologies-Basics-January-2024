@@ -5,15 +5,15 @@ namespace GreetingProviderNunitTests
 {
     public class Tests
     {
-        private Mock<ITimeProvider> mockTimeProvider;
-        private GetGreeting.GreetingProvider greetingProvider;
+        private Mock<ITimeProvider> _mockTimeProvider;
+        private GetGreeting.GreetingProvider _greetingProvider;
 
         [SetUp]
         public void Setup()
         {
-            mockTimeProvider = new Mock<ITimeProvider>();
-            greetingProvider = new
-            GetGreeting.GreetingProvider(mockTimeProvider.Object);
+            _mockTimeProvider = new Mock<ITimeProvider>();
+            _greetingProvider = new
+            GetGreeting.GreetingProvider(_mockTimeProvider.Object);
         }
 
         [Test]
@@ -21,12 +21,12 @@ namespace GreetingProviderNunitTests
         {
             // Arrange
 
-            mockTimeProvider.Setup(tp =>
+            _mockTimeProvider.Setup(tp =>
                         tp.GetCurrentTime()).Returns
                         (new DateTime(2024, 1, 1, 9, 0, 0));
 
             // Act
-            string result = greetingProvider.GetGreeting();
+            string result = _greetingProvider.GetGreeting();
 
             // Assert
             Assert.That(result, Is.EqualTo("Good morning!"));
@@ -37,12 +37,12 @@ namespace GreetingProviderNunitTests
         {
             // Arrange
 
-            mockTimeProvider.Setup(tp =>
+            _mockTimeProvider.Setup(tp =>
                         tp.GetCurrentTime()).Returns
                         (new DateTime(2024, 1, 1, 13, 0, 0));
 
             // Act
-            string result = greetingProvider.GetGreeting();
+            string result = _greetingProvider.GetGreeting();
 
             // Assert
             Assert.That(result, Is.EqualTo("Good afternoon!"));
@@ -53,12 +53,12 @@ namespace GreetingProviderNunitTests
         {
             // Arrange
 
-            mockTimeProvider.Setup(tp =>
+            _mockTimeProvider.Setup(tp =>
                         tp.GetCurrentTime()).Returns
                         (new DateTime(2024, 1, 1, 18, 0, 0));
 
             // Act
-            string result = greetingProvider.GetGreeting();
+            string result = _greetingProvider.GetGreeting();
 
             // Assert
             Assert.That(result, Is.EqualTo("Good evening!"));
@@ -69,12 +69,12 @@ namespace GreetingProviderNunitTests
         {
             // Arrange
 
-            mockTimeProvider.Setup(tp =>
+            _mockTimeProvider.Setup(tp =>
                         tp.GetCurrentTime()).Returns
                         (new DateTime(2024, 1, 1, 23, 0, 0));
 
             // Act
-            string result = greetingProvider.GetGreeting();
+            string result = _greetingProvider.GetGreeting();
 
             // Assert
             Assert.That(result, Is.EqualTo("Good night!"));
@@ -88,15 +88,16 @@ namespace GreetingProviderNunitTests
         {
             // Arrange
 
-            mockTimeProvider.Setup(tp =>
+            _mockTimeProvider.Setup(tp =>
                         tp.GetCurrentTime()).Returns
                         (new DateTime(2024, 1, 1, currentTime, 0, 0));
 
             // Act
-            string result = greetingProvider.GetGreeting();
+            string result = _greetingProvider.GetGreeting();
 
             // Assert
             Assert.That(result, Is.EqualTo(expectedMessage));
+            _mockTimeProvider.Verify(x => x.GetCurrentTime(), Times.Once);
         }
     }
 }
