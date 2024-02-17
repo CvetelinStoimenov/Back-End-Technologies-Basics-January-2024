@@ -263,7 +263,6 @@ namespace MoviesLibraryAPI.XUnitTests
             Assert.Null(result);
         }
 
-
         [Fact]
         public async Task SearchByTitleFragmentAsync_WhenTitleFragmentExists_ShouldReturnMatchingMovies()
         {

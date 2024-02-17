@@ -28,15 +28,15 @@ namespace Homies.Tests
         {
             // Step 1: Arrange - Set up the initial conditions for the test
             // Create a new event model with test data
-            //var eventModel = new EventFormModel
-            //{
-            //    Name = "Test Event",
-            //    Description = "Test Description",
-            //    Start = DateTime.Now,
-            //    End = DateTime.Now.AddHours(2)
-            //};
+            var eventModel = new EventFormModel
+            {
+                Name = "Test Event",
+                Description = "Test Description",
+                Start = DateTime.Now,
+                End = DateTime.Now.AddHours(2)
+            };
             // Define a user ID for testing purposes
-            //string userId = "testUserId";
+            string userId = "testUserId";
 
             // Step 2: Act - Perform the action being tested
             // Call the service method to add the event
