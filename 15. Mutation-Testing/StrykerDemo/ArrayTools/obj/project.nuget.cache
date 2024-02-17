@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XW6Ze62RJB+qlm6kOhGVlkVmuj1x41aA1/bJLVx/iNsdQeYxQibQWMjlCJtmS5Kg71JCcKjgX5vtlAydvJOL5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
