@@ -62,6 +62,14 @@ namespace LibraryManagementTest
         {
             // Arrange
             Library library = new Library();
+            var book = new Book
+            {
+                Id = 1,
+                Title = "Test Title",
+                Author = "Test Author",
+                IsCheckedOut = false
+            };
+            library.AddBook(book);
 
             // Act
             var result = library.CheckOutBook(158);

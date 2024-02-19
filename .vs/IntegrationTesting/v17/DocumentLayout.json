@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{31934875-BB93-4A23-8F33-2B2AB239B38E}|14. Code Coverage\\LibraryManagementTest\\LibraryManagementTest.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\14. code coverage\\librarymanagementtest\\librarytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31934875-BB93-4A23-8F33-2B2AB239B38E}|14. Code Coverage\\LibraryManagementTest\\LibraryManagementTest.csproj|solutionrelative:14. code coverage\\librarymanagementtest\\librarytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F302D940-9A9E-43F0-9E58-BDF05112A6E0}|14. Code Coverage\\LibraryManagement\\LibraryManagement.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\14. code coverage\\librarymanagement\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F302D940-9A9E-43F0-9E58-BDF05112A6E0}|14. Code Coverage\\LibraryManagement\\LibraryManagement.csproj|solutionrelative:14. code coverage\\librarymanagement\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,23 +28,9 @@
               "RelativeDocumentMoniker": "14. Code Coverage\\LibraryManagement\\Library.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\14. Code Coverage\\LibraryManagement\\Library.cs",
               "RelativeToolTip": "14. Code Coverage\\LibraryManagement\\Library.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowA4AAAAdAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T10:40:10.318Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\14. Code Coverage\\LibraryManagement\\Book.cs",
-              "RelativeDocumentMoniker": "14. Code Coverage\\LibraryManagement\\Book.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\14. Code Coverage\\LibraryManagement\\Book.cs",
-              "RelativeToolTip": "14. Code Coverage\\LibraryManagement\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T10:48:04.043Z",
+              "WhenOpened": "2024-02-19T11:30:30.028Z",
               "EditorCaption": ""
             },
             {
@@ -59,7 +41,7 @@
               "RelativeDocumentMoniker": "14. Code Coverage\\LibraryManagementTest\\LibraryTests.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\14. Code Coverage\\LibraryManagementTest\\LibraryTests.cs",
               "RelativeToolTip": "14. Code Coverage\\LibraryManagementTest\\LibraryTests.cs",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAqwJ4AAAAJAAAA",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAcwEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-19T10:39:48.164Z",
               "EditorCaption": ""

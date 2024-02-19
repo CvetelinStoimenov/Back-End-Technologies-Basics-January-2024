@@ -1,56 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.9918" branch-rate="0.875" version="1.9" timestamp="1708342137" lines-covered="122" lines-valid="123" branches-covered="7" branches-valid="8">
+<coverage line-rate="0.9923000000000001" branch-rate="1" version="1.9" timestamp="1708342322" lines-covered="130" lines-valid="131" branches-covered="8" branches-valid="8">
   <sources>
     <source>C:\Users\Lenovo\</source>
   </sources>
   <packages>
-    <package name="LibraryManagement" line-rate="1" branch-rate="0.875" complexity="15">
+    <package name="LibraryManagement" line-rate="1" branch-rate="1" complexity="15">
       <classes>
         <class name="LibraryManagementSystem.Book" filename="source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\Book.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="12" branch="False" />
+                <line number="5" hits="14" branch="False" />
               </lines>
             </method>
             <method name="get_Title" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="8" branch="False" />
+                <line number="6" hits="9" branch="False" />
               </lines>
             </method>
             <method name="get_Author" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="8" branch="False" />
+                <line number="7" hits="9" branch="False" />
               </lines>
             </method>
             <method name="get_IsCheckedOut" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="15" branch="False" />
+                <line number="8" hits="16" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="12" branch="False" />
-            <line number="6" hits="8" branch="False" />
-            <line number="7" hits="8" branch="False" />
-            <line number="8" hits="15" branch="False" />
+            <line number="5" hits="14" branch="False" />
+            <line number="6" hits="9" branch="False" />
+            <line number="7" hits="9" branch="False" />
+            <line number="8" hits="16" branch="False" />
           </lines>
         </class>
-        <class name="LibraryManagementSystem.Library" filename="source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\Library.cs" line-rate="1" branch-rate="0.875" complexity="11">
+        <class name="LibraryManagementSystem.Library" filename="source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\Library.cs" line-rate="1" branch-rate="1" complexity="11">
           <methods>
             <method name="AddBook" signature="(LibraryManagementSystem.Book)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="6" branch="False" />
-                <line number="15" hits="6" branch="False" />
-                <line number="16" hits="6" branch="False" />
+                <line number="14" hits="7" branch="False" />
+                <line number="15" hits="7" branch="False" />
+                <line number="16" hits="7" branch="False" />
               </lines>
             </method>
-            <method name="CheckOutBook" signature="(System.Int32)" line-rate="1" branch-rate="0.75" complexity="4">
+            <method name="CheckOutBook" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
                 <line number="19" hits="3" branch="False" />
-                <line number="20" hits="5" branch="True" condition-coverage="50% (1/2)">
+                <line number="20" hits="6" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="12" type="jump" coverage="50%" />
+                    <condition number="12" type="jump" coverage="100%" />
                   </conditions>
                 </line>
                 <line number="21" hits="3" branch="True" condition-coverage="100% (2/2)">
@@ -99,13 +99,13 @@
             </method>
           </methods>
           <lines>
-            <line number="14" hits="6" branch="False" />
-            <line number="15" hits="6" branch="False" />
-            <line number="16" hits="6" branch="False" />
+            <line number="14" hits="7" branch="False" />
+            <line number="15" hits="7" branch="False" />
+            <line number="16" hits="7" branch="False" />
             <line number="19" hits="3" branch="False" />
-            <line number="20" hits="5" branch="True" condition-coverage="50% (1/2)">
+            <line number="20" hits="6" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="12" type="jump" coverage="50%" />
+                <condition number="12" type="jump" coverage="100%" />
               </conditions>
             </line>
             <line number="21" hits="3" branch="True" condition-coverage="100% (2/2)">
@@ -142,7 +142,7 @@
         </class>
       </classes>
     </package>
-    <package name="LibraryManagementTest" line-rate="0.9895" branch-rate="1" complexity="8">
+    <package name="LibraryManagementTest" line-rate="0.9903" branch-rate="1" complexity="8">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\17.5.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -205,80 +205,88 @@
               <lines>
                 <line number="62" hits="1" branch="False" />
                 <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
                 <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
                 <line number="70" hits="1" branch="False" />
                 <line number="71" hits="1" branch="False" />
+                <line number="72" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="78" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
               </lines>
             </method>
             <method name="CheckOutBook_ShouldReturnFalse_IfBookIsAlreadyCheckedOut" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="75" hits="1" branch="False" />
-                <line number="77" hits="1" branch="False" />
-                <line number="78" hits="1" branch="False" />
-                <line number="79" hits="1" branch="False" />
-                <line number="80" hits="1" branch="False" />
-                <line number="81" hits="1" branch="False" />
-                <line number="82" hits="1" branch="False" />
                 <line number="83" hits="1" branch="False" />
-                <line number="84" hits="1" branch="False" />
                 <line number="85" hits="1" branch="False" />
+                <line number="86" hits="1" branch="False" />
+                <line number="87" hits="1" branch="False" />
                 <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
                 <line number="91" hits="1" branch="False" />
                 <line number="92" hits="1" branch="False" />
+                <line number="93" hits="1" branch="False" />
+                <line number="96" hits="1" branch="False" />
+                <line number="99" hits="1" branch="False" />
+                <line number="100" hits="1" branch="False" />
               </lines>
             </method>
             <method name="ReturnBook_ShouldReturnFalse_IfBookDoesNotExist" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="96" hits="1" branch="False" />
-                <line number="98" hits="1" branch="False" />
-                <line number="99" hits="1" branch="False" />
-                <line number="100" hits="1" branch="False" />
-                <line number="101" hits="1" branch="False" />
-                <line number="102" hits="1" branch="False" />
-                <line number="103" hits="1" branch="False" />
                 <line number="104" hits="1" branch="False" />
-                <line number="105" hits="1" branch="False" />
                 <line number="106" hits="1" branch="False" />
+                <line number="107" hits="1" branch="False" />
+                <line number="108" hits="1" branch="False" />
                 <line number="109" hits="1" branch="False" />
+                <line number="110" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
                 <line number="112" hits="1" branch="False" />
                 <line number="113" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
+                <line number="117" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
+                <line number="121" hits="1" branch="False" />
               </lines>
             </method>
             <method name="ReturnBook_ShouldReturnFalse_IfBookIsNotCheckedOut" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="117" hits="1" branch="False" />
-                <line number="119" hits="1" branch="False" />
-                <line number="120" hits="1" branch="False" />
-                <line number="121" hits="1" branch="False" />
-                <line number="122" hits="1" branch="False" />
-                <line number="123" hits="1" branch="False" />
-                <line number="124" hits="1" branch="False" />
                 <line number="125" hits="1" branch="False" />
-                <line number="126" hits="1" branch="False" />
                 <line number="127" hits="1" branch="False" />
+                <line number="128" hits="1" branch="False" />
+                <line number="129" hits="1" branch="False" />
                 <line number="130" hits="1" branch="False" />
+                <line number="131" hits="1" branch="False" />
+                <line number="132" hits="1" branch="False" />
                 <line number="133" hits="1" branch="False" />
                 <line number="134" hits="1" branch="False" />
+                <line number="135" hits="1" branch="False" />
+                <line number="138" hits="1" branch="False" />
+                <line number="141" hits="1" branch="False" />
+                <line number="142" hits="1" branch="False" />
               </lines>
             </method>
             <method name="ReturnBook_ShouldReturnTrue_IfBookCanBeCheckedOut" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="138" hits="1" branch="False" />
-                <line number="140" hits="1" branch="False" />
-                <line number="141" hits="1" branch="False" />
-                <line number="142" hits="1" branch="False" />
-                <line number="143" hits="1" branch="False" />
-                <line number="144" hits="1" branch="False" />
-                <line number="145" hits="1" branch="False" />
                 <line number="146" hits="1" branch="False" />
-                <line number="147" hits="1" branch="False" />
+                <line number="148" hits="1" branch="False" />
                 <line number="149" hits="1" branch="False" />
+                <line number="150" hits="1" branch="False" />
+                <line number="151" hits="1" branch="False" />
                 <line number="152" hits="1" branch="False" />
+                <line number="153" hits="1" branch="False" />
+                <line number="154" hits="1" branch="False" />
                 <line number="155" hits="1" branch="False" />
-                <line number="156" hits="1" branch="False" />
                 <line number="157" hits="1" branch="False" />
-                <line number="158" hits="1" branch="False" />
-                <line number="159" hits="1" branch="False" />
+                <line number="160" hits="1" branch="False" />
+                <line number="163" hits="1" branch="False" />
+                <line number="164" hits="1" branch="False" />
+                <line number="165" hits="1" branch="False" />
+                <line number="166" hits="1" branch="False" />
+                <line number="167" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
@@ -320,64 +328,72 @@
             <line number="58" hits="1" branch="False" />
             <line number="62" hits="1" branch="False" />
             <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
             <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
             <line number="70" hits="1" branch="False" />
             <line number="71" hits="1" branch="False" />
+            <line number="72" hits="1" branch="False" />
             <line number="75" hits="1" branch="False" />
-            <line number="77" hits="1" branch="False" />
             <line number="78" hits="1" branch="False" />
             <line number="79" hits="1" branch="False" />
-            <line number="80" hits="1" branch="False" />
-            <line number="81" hits="1" branch="False" />
-            <line number="82" hits="1" branch="False" />
             <line number="83" hits="1" branch="False" />
-            <line number="84" hits="1" branch="False" />
             <line number="85" hits="1" branch="False" />
+            <line number="86" hits="1" branch="False" />
+            <line number="87" hits="1" branch="False" />
             <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
             <line number="91" hits="1" branch="False" />
             <line number="92" hits="1" branch="False" />
+            <line number="93" hits="1" branch="False" />
             <line number="96" hits="1" branch="False" />
-            <line number="98" hits="1" branch="False" />
             <line number="99" hits="1" branch="False" />
             <line number="100" hits="1" branch="False" />
-            <line number="101" hits="1" branch="False" />
-            <line number="102" hits="1" branch="False" />
-            <line number="103" hits="1" branch="False" />
             <line number="104" hits="1" branch="False" />
-            <line number="105" hits="1" branch="False" />
             <line number="106" hits="1" branch="False" />
+            <line number="107" hits="1" branch="False" />
+            <line number="108" hits="1" branch="False" />
             <line number="109" hits="1" branch="False" />
+            <line number="110" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
             <line number="112" hits="1" branch="False" />
             <line number="113" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
             <line number="117" hits="1" branch="False" />
-            <line number="119" hits="1" branch="False" />
             <line number="120" hits="1" branch="False" />
             <line number="121" hits="1" branch="False" />
-            <line number="122" hits="1" branch="False" />
-            <line number="123" hits="1" branch="False" />
-            <line number="124" hits="1" branch="False" />
             <line number="125" hits="1" branch="False" />
-            <line number="126" hits="1" branch="False" />
             <line number="127" hits="1" branch="False" />
+            <line number="128" hits="1" branch="False" />
+            <line number="129" hits="1" branch="False" />
             <line number="130" hits="1" branch="False" />
+            <line number="131" hits="1" branch="False" />
+            <line number="132" hits="1" branch="False" />
             <line number="133" hits="1" branch="False" />
             <line number="134" hits="1" branch="False" />
+            <line number="135" hits="1" branch="False" />
             <line number="138" hits="1" branch="False" />
-            <line number="140" hits="1" branch="False" />
             <line number="141" hits="1" branch="False" />
             <line number="142" hits="1" branch="False" />
-            <line number="143" hits="1" branch="False" />
-            <line number="144" hits="1" branch="False" />
-            <line number="145" hits="1" branch="False" />
             <line number="146" hits="1" branch="False" />
-            <line number="147" hits="1" branch="False" />
+            <line number="148" hits="1" branch="False" />
             <line number="149" hits="1" branch="False" />
+            <line number="150" hits="1" branch="False" />
+            <line number="151" hits="1" branch="False" />
             <line number="152" hits="1" branch="False" />
+            <line number="153" hits="1" branch="False" />
+            <line number="154" hits="1" branch="False" />
             <line number="155" hits="1" branch="False" />
-            <line number="156" hits="1" branch="False" />
             <line number="157" hits="1" branch="False" />
-            <line number="158" hits="1" branch="False" />
-            <line number="159" hits="1" branch="False" />
+            <line number="160" hits="1" branch="False" />
+            <line number="163" hits="1" branch="False" />
+            <line number="164" hits="1" branch="False" />
+            <line number="165" hits="1" branch="False" />
+            <line number="166" hits="1" branch="False" />
+            <line number="167" hits="1" branch="False" />
           </lines>
         </class>
       </classes>
