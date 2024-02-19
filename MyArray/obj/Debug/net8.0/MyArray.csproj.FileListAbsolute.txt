@@ -1,0 +1,12 @@
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\MyArray\bin\Debug\net8.0\MyArray.deps.json
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\MyArray\bin\Debug\net8.0\MyArray.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\MyArray\bin\Debug\net8.0\MyArray.pdb
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\MyArray\obj\Debug\net8.0\MyArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\MyArray\obj\Debug\net8.0\MyArray.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\MyArray\obj\Debug\net8.0\MyArray.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\MyArray\obj\Debug\net8.0\MyArray.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\MyArray\obj\Debug\net8.0\MyArray.sourcelink.json
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\MyArray\obj\Debug\net8.0\MyArray.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\MyArray\obj\Debug\net8.0\refint\MyArray.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\MyArray\obj\Debug\net8.0\MyArray.pdb
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\MyArray\obj\Debug\net8.0\ref\MyArray.dll

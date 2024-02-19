@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LibroConsoleAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f9970ad39cdb29bfb550bdd2f49142b460e2f35")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb488a7430faee72282bd98b392974d32b6f6f74")]
 [assembly: System.Reflection.AssemblyProductAttribute("LibroConsoleAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LibroConsoleAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
