@@ -1,0 +1,13 @@
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\bin\Debug\net6.0\ArrayTools.deps.json
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\bin\Debug\net6.0\ArrayTools.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\bin\Debug\net6.0\ArrayTools.pdb
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\obj\Debug\net6.0\ArrayTools.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\obj\Debug\net6.0\ArrayTools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\obj\Debug\net6.0\ArrayTools.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\obj\Debug\net6.0\ArrayTools.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\obj\Debug\net6.0\ArrayTools.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\obj\Debug\net6.0\ArrayTools.sourcelink.json
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\obj\Debug\net6.0\ArrayTools.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\obj\Debug\net6.0\refint\ArrayTools.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\obj\Debug\net6.0\ArrayTools.pdb
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayTools\obj\Debug\net6.0\ref\ArrayTools.dll

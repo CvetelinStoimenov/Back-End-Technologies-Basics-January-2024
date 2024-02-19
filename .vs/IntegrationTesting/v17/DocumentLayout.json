@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8522EC3-E108-4505-86B3-88F41AFD68C0}|13. Exercise Testing API Controllers\\Homies.Tests\\Homies.Tests.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\13. exercise testing api controllers\\homies.tests\\eventcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8522EC3-E108-4505-86B3-88F41AFD68C0}|13. Exercise Testing API Controllers\\Homies.Tests\\Homies.Tests.csproj|solutionrelative:13. exercise testing api controllers\\homies.tests\\eventcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{286A4BBD-193E-4E23-8888-CCB8DE029700}|13. Exercise Testing API Controllers\\Homies\\Homies.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\13. exercise testing api controllers\\homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{286A4BBD-193E-4E23-8888-CCB8DE029700}|13. Exercise Testing API Controllers\\Homies\\Homies.csproj|solutionrelative:13. exercise testing api controllers\\homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\13. Exercise Testing API Controllers\\Homies\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "13. Exercise Testing API Controllers\\Homies\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\13. Exercise Testing API Controllers\\Homies\\Controllers\\EventController.cs",
+              "RelativeToolTip": "13. Exercise Testing API Controllers\\Homies\\Controllers\\EventController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAQwGUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T09:34:20.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\13. Exercise Testing API Controllers\\Homies.Tests\\EventControllerTests.cs",
+              "RelativeDocumentMoniker": "13. Exercise Testing API Controllers\\Homies.Tests\\EventControllerTests.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\13. Exercise Testing API Controllers\\Homies.Tests\\EventControllerTests.cs*",
+              "RelativeToolTip": "13. Exercise Testing API Controllers\\Homies.Tests\\EventControllerTests.cs*",
+              "ViewState": "AQIAAIIBAAAAAAAAAAAqwJ4BAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T18:00:32.293Z",
+              "EditorCaption": ""
             }
           ]
         }

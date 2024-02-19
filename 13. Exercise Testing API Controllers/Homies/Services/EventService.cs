@@ -40,8 +40,8 @@ namespace Homies.Services
                     Id = e.Id,
                     Name = e.Name,
                     Start = e.Start.ToString("dd/MM/yyyy H:mm"),
-                    Type = e.Type.Name,
-                    Organiser = e.Organiser.UserName
+                    //Type = e.Type.Name,
+                    //Organiser = e.Organiser.UserName
                 })
                 .ToListAsync();
 
@@ -58,8 +58,8 @@ namespace Homies.Services
                     Name = e.Name,
                     Start = e.Start.ToString("dd/MM/yyyy H:mm"),
                     End = e.End.ToString("dd/MM/yyyy H:mm"),
-                    Organiser = e.Organiser.UserName,
-                    Type = e.Type.Name,
+                    //Organiser = e.Organiser.UserName,
+                    //Type = e.Type.Name,
                     Description = e.Description,
                     CreatedOn = e.CreatedOn.ToString("dd/MM/yyyy H:mm")
                 })
@@ -112,7 +112,7 @@ namespace Homies.Services
                     Name = ep.Event.Name,
                     Start = ep.Event.Start.ToString("dd/MM/yyyy H:mm"),
                     Type = ep.Event.Type.Name,
-                    Organiser = ep.Event.Organiser.UserName
+                    //Organiser = ep.Event.Organiser.UserName
                 })
                 .ToListAsync();
         }

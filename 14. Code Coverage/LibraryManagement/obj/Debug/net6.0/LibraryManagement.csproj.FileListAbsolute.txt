@@ -1,0 +1,12 @@
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\bin\Debug\net6.0\LibraryManagement.deps.json
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\bin\Debug\net6.0\LibraryManagement.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\bin\Debug\net6.0\LibraryManagement.pdb
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\obj\Debug\net6.0\LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\obj\Debug\net6.0\LibraryManagement.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\obj\Debug\net6.0\LibraryManagement.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\obj\Debug\net6.0\LibraryManagement.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\obj\Debug\net6.0\LibraryManagement.sourcelink.json
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\obj\Debug\net6.0\LibraryManagement.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\obj\Debug\net6.0\refint\LibraryManagement.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\obj\Debug\net6.0\LibraryManagement.pdb
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagement\obj\Debug\net6.0\ref\LibraryManagement.dll
