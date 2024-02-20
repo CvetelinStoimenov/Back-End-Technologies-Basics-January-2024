@@ -1,0 +1,7 @@
+TpTrace Verbose: 0 : 22236, 1, 2024/02/20, 14:06:54.614, 5055101281432, datacollector.dll, Version: 17.9.0-release-23627-01
+TpTrace Information: 0 : 22236, 1, 2024/02/20, 14:06:54.628, 5055101418479, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,61455,--parentprocessid,984,--diag,Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Exam Preparation 1\03-Contacts-Resources\ContactsConsoleAPI\ContactsConsoleAPI.IntegrationTests.NUnit\bin\Debug\net6.0\fine-code-coverage\coverage-tool-output\diagnostics.datacollector.24-02-20_14-06-54_30608_5.log,--tracelevel,4
+TpTrace Information: 0 : 22236, 1, 2024/02/20, 14:06:54.649, 5055101630091, datacollector.dll, DataCollector: Monitoring parent process with id: '984'
+TpTrace Information: 0 : 22236, 1, 2024/02/20, 14:06:54.673, 5055101873589, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:61455 
+TpTrace Verbose: 0 : 22236, 1, 2024/02/20, 14:06:54.701, 5055102149205, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 22236, 6, 2024/02/20, 14:06:54.731, 5055102449396, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 22236, 6, 2024/02/20, 14:06:54.734, 5055102477703, datacollector.dll, Using the buffer size of 16384 bytes
