@@ -9,7 +9,7 @@ namespace ItemManagementLib.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-23QTAUK\\SQLEXPRESS;Database=ItemManagement;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=ItemManagement;Trusted_Connection=True;");
             base.OnConfiguring(optionsBuilder);
         }
 
