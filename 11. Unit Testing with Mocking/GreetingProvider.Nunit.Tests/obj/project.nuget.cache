@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "9BSuWHFmewloAKdYgVboSPYB09Rz4oSBFNy6wGTfrcO/PxGavyW0Hap+f2om0Smyv1cm1Ws7ed6aIompXo8UAw==",
-  "success": true,
+  "dgSpecHash": "feJYN5PuYY0WWCwaaCqnwy1VlMftMttdtV2hJmkFODoqOUgRtBPIyP9wOYlYYO5L1riRPYeTgLSVXXg05tw/jQ==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
@@ -21,5 +21,15 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\GetGreeting\\GetGreeting.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\GetGreeting\\GetGreeting.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

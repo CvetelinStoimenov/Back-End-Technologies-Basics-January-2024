@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F302D940-9A9E-43F0-9E58-BDF05112A6E0}|14. Code Coverage\\LibraryManagement\\LibraryManagement.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\14. code coverage\\librarymanagement\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F302D940-9A9E-43F0-9E58-BDF05112A6E0}|14. Code Coverage\\LibraryManagement\\LibraryManagement.csproj|solutionrelative:14. code coverage\\librarymanagement\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D231CA0E-3B86-45F3-A1D4-5D04B746597D}|15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\15. mutation-testing\\strykerdemo\\arraytools\\arraytools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D231CA0E-3B86-45F3-A1D4-5D04B746597D}|15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj|solutionrelative:15. mutation-testing\\strykerdemo\\arraytools\\arraytools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{286A4BBD-193E-4E23-8888-CCB8DE029700}|13. Exercise Testing API Controllers\\Homies\\Homies.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\13. exercise testing api controllers\\homies\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{286A4BBD-193E-4E23-8888-CCB8DE029700}|13. Exercise Testing API Controllers\\Homies\\Homies.csproj|solutionrelative:13. exercise testing api controllers\\homies\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0D3017B-6921-46E2-BFA4-F9093824B327}|12. RESTful API Backend Apps\\Homies\\Homies.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\12. restful api backend apps\\homies\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F0D3017B-6921-46E2-BFA4-F9093824B327}|12. RESTful API Backend Apps\\Homies\\Homies.csproj|solutionrelative:12. restful api backend apps\\homies\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E62C2DD-767E-4E25-8FA8-8E0E270EFA7B}|11. Unit Testing with Mocking\\ItemManagement\\ItemManagementLib\\ItemManagementLib.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\11. unit testing with mocking\\itemmanagement\\itemmanagementlib\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E62C2DD-767E-4E25-8FA8-8E0E270EFA7B}|11. Unit Testing with Mocking\\ItemManagement\\ItemManagementLib\\ItemManagementLib.csproj|solutionrelative:11. unit testing with mocking\\itemmanagement\\itemmanagementlib\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31FA7C8B-3A86-4B05-A42B-A3835BD8B559}|09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI\\LibroConsoleAPI.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\09. exercises integration testing - part 1\\libroconsoleapi\\libroconsoleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{31FA7C8B-3A86-4B05-A42B-A3835BD8B559}|09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI\\LibroConsoleAPI.csproj|solutionrelative:09. exercises integration testing - part 1\\libroconsoleapi\\libroconsoleapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A7B5BD00-4818-4734-B969-208DB161FCD2}|11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\11. unit testing with mocking\\greetingprovider.nunit.tests\\greetingprovider.nunit.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B5BD00-4818-4734-B969-208DB161FCD2}|11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.csproj|solutionrelative:11. unit testing with mocking\\greetingprovider.nunit.tests\\greetingprovider.nunit.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,60 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\13. Exercise Testing API Controllers\\Homies\\appsettings.json",
-              "RelativeDocumentMoniker": "13. Exercise Testing API Controllers\\Homies\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\13. Exercise Testing API Controllers\\Homies\\appsettings.json",
-              "RelativeToolTip": "13. Exercise Testing API Controllers\\Homies\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-21T20:28:11.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\12. RESTful API Backend Apps\\Homies\\appsettings.json",
-              "RelativeDocumentMoniker": "12. RESTful API Backend Apps\\Homies\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\12. RESTful API Backend Apps\\Homies\\appsettings.json",
-              "RelativeToolTip": "12. RESTful API Backend Apps\\Homies\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-21T20:27:23.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\ItemManagement\\ItemManagementLib\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "11. Unit Testing with Mocking\\ItemManagement\\ItemManagementLib\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\ItemManagement\\ItemManagementLib\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "11. Unit Testing with Mocking\\ItemManagement\\ItemManagementLib\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T20:26:50.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI\\appsettings.json",
-              "RelativeToolTip": "09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-21T20:24:17.479Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -91,15 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Library.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\14. Code Coverage\\LibraryManagement\\Library.cs",
-              "RelativeDocumentMoniker": "14. Code Coverage\\LibraryManagement\\Library.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\14. Code Coverage\\LibraryManagement\\Library.cs",
-              "RelativeToolTip": "14. Code Coverage\\LibraryManagement\\Library.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAwwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T11:30:30.028Z",
+              "Title": "ArrayTools.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj",
+              "RelativeDocumentMoniker": "15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj",
+              "RelativeToolTip": "15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-21T21:08:52.592Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GreetingProvider.Nunit.Tests.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
+              "RelativeDocumentMoniker": "11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
+              "RelativeToolTip": "11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwDAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T20:49:12.979Z"
             }
           ]
         }
