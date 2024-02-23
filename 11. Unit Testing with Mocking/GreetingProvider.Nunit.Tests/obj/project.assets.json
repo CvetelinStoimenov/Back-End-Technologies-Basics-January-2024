@@ -1117,8 +1117,8 @@
     },
     "GetGreeting/1.0.0": {
       "type": "project",
-      "path": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\GetGreeting\\GetGreeting.csproj",
-      "msbuildProject": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\GetGreeting\\GetGreeting.csproj"
+      "path": "../GetGreeting/GetGreeting.csproj",
+      "msbuildProject": "../GetGreeting/GetGreeting.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1159,8 +1159,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\GetGreeting\\GetGreeting.csproj": {
-              "projectPath": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\GetGreeting\\GetGreeting.csproj"
+            "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\GetGreeting\\GetGreeting.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\GetGreeting\\GetGreeting.csproj"
             }
           }
         }

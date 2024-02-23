@@ -8,13 +8,15 @@ namespace GetGreeting
 {
     public class GreetingProvider
     {
-        public GreetingProvider(object @object)
+        private readonly ITimeProvider _timeProvider;
+        public GreetingProvider(ITimeProvider timeProvider)
         {
+            _timeProvider = timeProvider;
         }
 
         public string GetGreeting()
         {
-            var hour = DateTime.Now.Hour;
+            var hour = _timeProvider.GetCurrentTime().Hour;
 
             if (hour >= 5 && hour < 12)
             {

@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.7564" branch-rate="1" version="1.9" timestamp="1708703654" lines-covered="59" lines-valid="78" branches-covered="14" branches-valid="14">
+<coverage line-rate="0.7564" branch-rate="1" version="1.9" timestamp="1708704535" lines-covered="59" lines-valid="78" branches-covered="14" branches-valid="14">
   <sources>
-    <source>Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\</source>
     <source>C:\Users\Lenovo\</source>
   </sources>
   <packages>
     <package name="GetGreeting" line-rate="0.5" branch-rate="1" complexity="18">
       <classes>
-        <class name="GetGreeting.GreetingProvider" filename="GreetingProvider.cs" line-rate="1" branch-rate="1" complexity="13">
+        <class name="GetGreeting.GreetingProvider" filename="source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\GreetingProvider.cs" line-rate="1" branch-rate="1" complexity="13">
           <methods>
             <method name="GetGreeting" signature="()" line-rate="1" branch-rate="1" complexity="12">
               <lines>
@@ -87,7 +86,7 @@
             <line number="15" hits="8" branch="False" />
           </lines>
         </class>
-        <class name="GetGreeting.SystemTimeProvider" filename="ITimeProvider.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="GetGreeting.SystemTimeProvider" filename="source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\ITimeProvider.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="GetCurrentTime" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -103,7 +102,7 @@
             <line number="13" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="GetGreeting.Program" filename="Program.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="GetGreeting.Program" filename="source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -123,7 +122,7 @@
             <line number="10" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="GetGreeting.TimeProvider" filename="TimeProvider.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="GetGreeting.TimeProvider" filename="source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\TimeProvider.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="GetCurrentTime" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -139,7 +138,7 @@
             <line number="8" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="GetGreeting.FakeTimeProvider" filename="TimeProvider.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="GetGreeting.FakeTimeProvider" filename="source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\TimeProvider.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="GetCurrentTime" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>

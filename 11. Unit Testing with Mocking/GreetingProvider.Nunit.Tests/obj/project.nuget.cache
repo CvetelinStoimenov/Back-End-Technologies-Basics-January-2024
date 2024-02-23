@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9BSuWHFmewloAKdYgVboSPYB09Rz4oSBFNy6wGTfrcO/PxGavyW0Hap+f2om0Smyv1cm1Ws7ed6aIompXo8UAw==",
+  "dgSpecHash": "EjfP89mvzTbW+7OrqDKfWhpZQax/9ZzAdgaufbJG1mXoLf8VVkYEVK4vEn613f+Ee/oQJU9PliesIIX5eAn2Nw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.csproj",
   "expectedPackageFiles": [

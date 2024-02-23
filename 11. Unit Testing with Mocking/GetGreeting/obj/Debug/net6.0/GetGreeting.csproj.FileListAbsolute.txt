@@ -1,3 +1,31 @@
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\bin\Debug\net6.0\GetGreeting.exe
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\bin\Debug\net6.0\GetGreeting.deps.json
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\bin\Debug\net6.0\GetGreeting.runtimeconfig.json
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\bin\Debug\net6.0\GetGreeting.dll
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\bin\Debug\net6.0\GetGreeting.pdb
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\obj\Debug\net6.0\GetGreeting.GeneratedMSBuildEditorConfig.editorconfig
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\obj\Debug\net6.0\GetGreeting.AssemblyInfoInputs.cache
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\obj\Debug\net6.0\GetGreeting.AssemblyInfo.cs
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\obj\Debug\net6.0\GetGreeting.csproj.CoreCompileInputs.cache
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\obj\Debug\net6.0\GetGreeting.dll
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\obj\Debug\net6.0\refint\GetGreeting.dll
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\obj\Debug\net6.0\GetGreeting.pdb
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\obj\Debug\net6.0\GetGreeting.genruntimeconfig.cache
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Resources\GetGreeting\obj\Debug\net6.0\ref\GetGreeting.dll
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\bin\Debug\net6.0\GetGreeting.exe
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\bin\Debug\net6.0\GetGreeting.deps.json
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\bin\Debug\net6.0\GetGreeting.runtimeconfig.json
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\bin\Debug\net6.0\GetGreeting.dll
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\bin\Debug\net6.0\GetGreeting.pdb
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\obj\Debug\net6.0\GetGreeting.GeneratedMSBuildEditorConfig.editorconfig
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\obj\Debug\net6.0\GetGreeting.AssemblyInfoInputs.cache
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\obj\Debug\net6.0\GetGreeting.AssemblyInfo.cs
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\obj\Debug\net6.0\GetGreeting.csproj.CoreCompileInputs.cache
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\obj\Debug\net6.0\GetGreeting.dll
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\obj\Debug\net6.0\refint\GetGreeting.dll
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\obj\Debug\net6.0\GetGreeting.pdb
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\obj\Debug\net6.0\GetGreeting.genruntimeconfig.cache
+Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\obj\Debug\net6.0\ref\GetGreeting.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\GetGreeting.exe
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\GetGreeting.deps.json
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\GetGreeting.runtimeconfig.json
@@ -13,10 +41,3 @@ C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Tes
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\GetGreeting.pdb
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\GetGreeting.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\ref\GetGreeting.dll
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\Castle.Core.dll
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\Moq.dll
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\GetGreeting.csproj.AssemblyReference.cache
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\11. Unit Testing with Mocking\GetGreeting\obj\Debug\net6.0\GetGreeting.csproj.CopyComplete

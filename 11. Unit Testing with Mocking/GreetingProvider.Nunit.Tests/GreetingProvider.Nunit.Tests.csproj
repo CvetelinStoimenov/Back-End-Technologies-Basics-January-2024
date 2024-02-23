@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\GetGreeting\GetGreeting.csproj" />
+    <ProjectReference Include="..\GetGreeting\GetGreeting.csproj" />
   </ItemGroup>
 
   <ItemGroup>
