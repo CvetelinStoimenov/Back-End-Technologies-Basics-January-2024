@@ -33,7 +33,7 @@ namespace TownsApplication
                         {
                             try
                             {
-                                controller.AddTown(townName, population);
+                                controller.AddTown(townName!, population);
                                 Console.WriteLine($"Town '{townName}' added successfully!");
                             }
                             catch (ArgumentException ex)

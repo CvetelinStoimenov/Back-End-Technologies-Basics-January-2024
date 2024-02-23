@@ -3,6 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BFFD7EDC-AEFE-4228-94F8-07D492262074}|09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI.IntegrationTests\\LibroConsoleAPI.IntegrationTests.XUnit.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\09. exercises integration testing - part 1\\libroconsoleapi\\libroconsoleapi.integrationtests\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFFD7EDC-AEFE-4228-94F8-07D492262074}|09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI.IntegrationTests\\LibroConsoleAPI.IntegrationTests.XUnit.csproj|solutionrelative:09. exercises integration testing - part 1\\libroconsoleapi\\libroconsoleapi.integrationtests\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56FB35B-689E-40BB-ADA6-6A097EF50ABF}|08. Integration Testing\\TownsApplication\\TownsApplication\\TownsApplication.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\08. integration testing\\townsapplication\\townsapplication\\controllerlayer\\towncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B56FB35B-689E-40BB-ADA6-6A097EF50ABF}|08. Integration Testing\\TownsApplication\\TownsApplication\\TownsApplication.csproj|solutionrelative:08. integration testing\\townsapplication\\townsapplication\\controllerlayer\\towncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B56FB35B-689E-40BB-ADA6-6A097EF50ABF}|08. Integration Testing\\TownsApplication\\TownsApplication\\TownsApplication.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\08. integration testing\\townsapplication\\townsapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B56FB35B-689E-40BB-ADA6-6A097EF50ABF}|08. Integration Testing\\TownsApplication\\TownsApplication\\TownsApplication.csproj|solutionrelative:08. integration testing\\townsapplication\\townsapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0D3017B-6921-46E2-BFA4-F9093824B327}|12. RESTful API Backend Apps\\Homies\\Homies.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\12. restful api backend apps\\homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0D3017B-6921-46E2-BFA4-F9093824B327}|12. RESTful API Backend Apps\\Homies\\Homies.csproj|solutionrelative:12. restful api backend apps\\homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,6 +50,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAADgOAAAAAAAAAAAawE8OAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-02-23T16:22:17.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI.IntegrationTests\\IntegrationTests.cs",
+              "RelativeDocumentMoniker": "09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI.IntegrationTests\\IntegrationTests.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI.IntegrationTests\\IntegrationTests.cs",
+              "RelativeToolTip": "09. Exercises Integration Testing - part 1\\LibroConsoleAPI\\LibroConsoleAPI.IntegrationTests\\IntegrationTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T16:13:08.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TownController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\08. Integration Testing\\TownsApplication\\TownsApplication\\ControllerLayer\\TownController.cs",
+              "RelativeDocumentMoniker": "08. Integration Testing\\TownsApplication\\TownsApplication\\ControllerLayer\\TownController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\08. Integration Testing\\TownsApplication\\TownsApplication\\ControllerLayer\\TownController.cs",
+              "RelativeToolTip": "08. Integration Testing\\TownsApplication\\TownsApplication\\ControllerLayer\\TownController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwEsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T16:11:55.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\08. Integration Testing\\TownsApplication\\TownsApplication\\Program.cs",
+              "RelativeDocumentMoniker": "08. Integration Testing\\TownsApplication\\TownsApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\08. Integration Testing\\TownsApplication\\TownsApplication\\Program.cs",
+              "RelativeToolTip": "08. Integration Testing\\TownsApplication\\TownsApplication\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T16:11:33.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "All.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\12. RESTful API Backend Apps\\Homies\\Views\\Event\\All.cshtml",
               "RelativeDocumentMoniker": "12. RESTful API Backend Apps\\Homies\\Views\\Event\\All.cshtml",
@@ -47,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\12. RESTful API Backend Apps\\Homies\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "12. RESTful API Backend Apps\\Homies\\Controllers\\EventController.cs",
@@ -60,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\12. RESTful API Backend Apps\\Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "12. RESTful API Backend Apps\\Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -73,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ArrayTools.csproj",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj",
               "RelativeDocumentMoniker": "15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj",

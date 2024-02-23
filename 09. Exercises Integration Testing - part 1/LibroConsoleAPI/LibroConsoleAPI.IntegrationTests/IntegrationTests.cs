@@ -1,3 +1,5 @@
+// Ignore Spelling: Libro
+
 using LibroConsoleAPI.Business;
 using LibroConsoleAPI.Business.Contracts;
 using LibroConsoleAPI.Data.Models;
@@ -62,8 +64,8 @@ namespace LibroConsoleAPI.IntegrationTests
             };
 
             // Act & Assert
-            var exception = Assert.ThrowsAsync<ValidationException>(() => _bookManager.AddAsync(invalidBook));
-            Assert.Equal(("Book is invalid."), exception.Result.Message);
+            var exception = await Assert.ThrowsAsync<ValidationException>(() => _bookManager.AddAsync(invalidBook));
+            Assert.Equal(("Book is invalid."), exception.Message);
             await Assert.ThrowsAsync<ValidationException>(() => _bookManager.AddAsync(invalidBook));
 
         }
@@ -91,9 +93,9 @@ namespace LibroConsoleAPI.IntegrationTests
             await DatabaseSeeder.SeedDatabaseAsync(_dbContext, _bookManager);
 
             // Act & Assert
-            var exception = Assert.ThrowsAsync<ArgumentException>(() => _bookManager.DeleteAsync(""));
-            Assert.Equal(("ISBN cannot be empty."), exception.Result.Message);
-            await Assert.ThrowsAsync<ArgumentException>(() => _bookManager.DeleteAsync(""));
+            var exception = await Assert.ThrowsAsync<ArgumentException>(() => _bookManager.DeleteAsync(""));
+            Assert.Equal(("ISBN cannot be empty."), exception.Message);
+
             var bookInDbToList = await _dbContext.Books.ToListAsync();
             Assert.Equal(10, bookInDbToList.Count);
         }
@@ -130,9 +132,9 @@ namespace LibroConsoleAPI.IntegrationTests
         public async Task GetAllAsync_WhenNoBooksExist_ShouldThrowKeyNotFoundException()
         {
             // Act & Assert
-            var exception = Assert.ThrowsAsync<KeyNotFoundException>(() => _bookManager.GetAllAsync());
+            var exception = await Assert.ThrowsAsync<KeyNotFoundException>(() => _bookManager.GetAllAsync());
             await Assert.ThrowsAsync<KeyNotFoundException>(() => _bookManager.GetAllAsync());
-            Assert.Equal(("No books found."), exception.Result.Message);
+            Assert.Equal(("No books found."), exception.Message);
         }
 
         [Fact]
@@ -159,9 +161,9 @@ namespace LibroConsoleAPI.IntegrationTests
         public async Task SearchByTitleAsync_WithInvalidTitleFragment_ShouldThrowKeyNotFoundException()
         {
             // Act & Assert
-            var exception = Assert.ThrowsAsync<ArgumentException>(() => _bookManager.SearchByTitleAsync(""));
+            var exception = await Assert.ThrowsAsync<ArgumentException>(() => _bookManager.SearchByTitleAsync(""));
             await Assert.ThrowsAsync<ArgumentException>(() => _bookManager.SearchByTitleAsync(""));
-            Assert.Equal("Title fragment cannot be empty.", exception.Result.Message);
+            Assert.Equal("Title fragment cannot be empty.", exception.Message);
 
             try
             {
@@ -199,9 +201,9 @@ namespace LibroConsoleAPI.IntegrationTests
             await DatabaseSeeder.SeedDatabaseAsync(_dbContext, _bookManager);
 
             // Act & Assert
-            var exception = Assert.ThrowsAsync<KeyNotFoundException>(() => _bookManager.GetSpecificAsync("sdasda"));
+            var exception = await Assert.ThrowsAsync<KeyNotFoundException>(() => _bookManager.GetSpecificAsync("sdasda"));
             await Assert.ThrowsAsync<KeyNotFoundException>(() => _bookManager.GetSpecificAsync("sdasda"));
-            Assert.Equal("No book found with ISBN: sdasda", exception.Result.Message);
+            Assert.Equal("No book found with ISBN: sdasda", exception.Message);
 
             try
             {
@@ -248,9 +250,9 @@ namespace LibroConsoleAPI.IntegrationTests
             };
 
             //Assert
-            var exception = Assert.ThrowsAsync<ValidationException>(() => _bookManager.UpdateAsync(newBook));
+            var exception = await Assert.ThrowsAsync<ValidationException>(() => _bookManager.UpdateAsync(newBook));
             await Assert.ThrowsAsync<ValidationException>(() => _bookManager.UpdateAsync(newBook));
-            Assert.Equal(("Book is invalid."), exception.Result.Message);
+            Assert.Equal(("Book is invalid."), exception.Message);
             try
             {
                 await _bookManager.UpdateAsync(newBook);
