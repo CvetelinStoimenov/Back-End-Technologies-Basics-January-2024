@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D231CA0E-3B86-45F3-A1D4-5D04B746597D}|15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\15. mutation-testing\\strykerdemo\\arraytools\\arraytools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D231CA0E-3B86-45F3-A1D4-5D04B746597D}|15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj|solutionrelative:15. mutation-testing\\strykerdemo\\arraytools\\arraytools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F0D3017B-6921-46E2-BFA4-F9093824B327}|12. RESTful API Backend Apps\\Homies\\Homies.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\12. restful api backend apps\\homies\\views\\event\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0D3017B-6921-46E2-BFA4-F9093824B327}|12. RESTful API Backend Apps\\Homies\\Homies.csproj|solutionrelative:12. restful api backend apps\\homies\\views\\event\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0D3017B-6921-46E2-BFA4-F9093824B327}|12. RESTful API Backend Apps\\Homies\\Homies.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\12. restful api backend apps\\homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0D3017B-6921-46E2-BFA4-F9093824B327}|12. RESTful API Backend Apps\\Homies\\Homies.csproj|solutionrelative:12. restful api backend apps\\homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0D3017B-6921-46E2-BFA4-F9093824B327}|12. RESTful API Backend Apps\\Homies\\Homies.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\12. restful api backend apps\\homies\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0D3017B-6921-46E2-BFA4-F9093824B327}|12. RESTful API Backend Apps\\Homies\\Homies.csproj|solutionrelative:12. restful api backend apps\\homies\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7B5BD00-4818-4734-B969-208DB161FCD2}|11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\11. unit testing with mocking\\greetingprovider.nunit.tests\\greetingprovider.nunit.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7B5BD00-4818-4734-B969-208DB161FCD2}|11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.csproj|solutionrelative:11. unit testing with mocking\\greetingprovider.nunit.tests\\greetingprovider.nunit.tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D231CA0E-3B86-45F3-A1D4-5D04B746597D}|15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\15. mutation-testing\\strykerdemo\\arraytools\\arraytools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D231CA0E-3B86-45F3-A1D4-5D04B746597D}|15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj|solutionrelative:15. mutation-testing\\strykerdemo\\arraytools\\arraytools.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\12. RESTful API Backend Apps\\Homies\\Views\\Event\\All.cshtml",
+              "RelativeDocumentMoniker": "12. RESTful API Backend Apps\\Homies\\Views\\Event\\All.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\12. RESTful API Backend Apps\\Homies\\Views\\Event\\All.cshtml",
+              "RelativeToolTip": "12. RESTful API Backend Apps\\Homies\\Views\\Event\\All.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-23T15:54:31.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\12. RESTful API Backend Apps\\Homies\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "12. RESTful API Backend Apps\\Homies\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\12. RESTful API Backend Apps\\Homies\\Controllers\\EventController.cs",
+              "RelativeToolTip": "12. RESTful API Backend Apps\\Homies\\Controllers\\EventController.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAgwH0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T15:53:52.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\12. RESTful API Backend Apps\\Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "12. RESTful API Backend Apps\\Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\12. RESTful API Backend Apps\\Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "12. RESTful API Backend Apps\\Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAA5wDYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T15:47:52.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ArrayTools.csproj",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj",
               "RelativeDocumentMoniker": "15. Mutation-Testing\\StrykerDemo\\ArrayTools\\ArrayTools.csproj",
@@ -39,15 +90,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GreetingProvider.Nunit.Tests.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
               "RelativeDocumentMoniker": "11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
               "RelativeToolTip": "11. Unit Testing with Mocking\\GreetingProvider.Nunit.Tests\\GreetingProvider.Nunit.Tests.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAQwDAAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-21T20:49:12.979Z"
+              "WhenOpened": "2024-02-21T20:49:12.979Z",
+              "EditorCaption": ""
             }
           ]
         }

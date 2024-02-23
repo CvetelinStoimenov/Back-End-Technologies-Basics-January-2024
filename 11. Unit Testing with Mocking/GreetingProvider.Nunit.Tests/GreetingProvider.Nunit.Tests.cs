@@ -1,103 +1,105 @@
-//using GetGreeting;
-//using Moq;
+// Ignore Spelling: Nunit
 
-//namespace GreetingProviderNunitTests
-//{
-//    public class Tests
-//    {
-//        private Mock<ITimeProvider> _mockTimeProvider;
-//        private GetGreeting.GreetingProvider _greetingProvider;
+using GetGreeting;
+using Moq;
 
-//        [SetUp]
-//        public void Setup()
-//        {
-//            _mockTimeProvider = new Mock<ITimeProvider>();
-//            _greetingProvider = new
-//            GetGreeting.GreetingProvider(_mockTimeProvider.Object);
-//        }
+namespace GreetingProviderNunitTests
+{
+    public class Tests
+    {
+        private Mock<ITimeProvider> _mockTimeProvider;
+        private GetGreeting.GreetingProvider _greetingProvider;
 
-//        [Test]
-//        public void GreetingAt9AmShouldBeGoodMorning()
-//        {
-//            // Arrange
+        [SetUp]
+        public void Setup()
+        {
+            _mockTimeProvider = new Mock<ITimeProvider>();
+            _greetingProvider = new
+            GetGreeting.GreetingProvider(_mockTimeProvider.Object);
+        }
 
-//            _mockTimeProvider.Setup(tp =>
-//                        tp.GetCurrentTime()).Returns
-//                        (new DateTime(2024, 1, 1, 9, 0, 0));
+        [Test]
+        public void GreetingAt9AmShouldBeGoodMorning()
+        {
+            // Arrange
 
-//            // Act
-//            string result = _greetingProvider.GetGreeting();
+            _mockTimeProvider.Setup(tp =>
+                        tp.GetCurrentTime()).Returns
+                        (new DateTime(2024, 1, 1, 9, 0, 0));
 
-//            // Assert
-//            Assert.That(result, Is.EqualTo("Good morning!"));
-//        }
+            // Act
+            string result = _greetingProvider.GetGreeting();
 
-//        [Test]
-//        public void GreetingAt1pmShouldBeGoodAfternoon()
-//        {
-//            // Arrange
+            // Assert
+            Assert.That(result, Is.EqualTo("Good morning!"));
+        }
 
-//            _mockTimeProvider.Setup(tp =>
-//                        tp.GetCurrentTime()).Returns
-//                        (new DateTime(2024, 1, 1, 13, 0, 0));
+        [Test]
+        public void GreetingAt1pmShouldBeGoodAfternoon()
+        {
+            // Arrange
 
-//            // Act
-//            string result = _greetingProvider.GetGreeting();
+            _mockTimeProvider.Setup(tp =>
+                        tp.GetCurrentTime()).Returns
+                        (new DateTime(2024, 1, 1, 13, 0, 0));
 
-//            // Assert
-//            Assert.That(result, Is.EqualTo("Good afternoon!"));
-//        }
+            // Act
+            string result = _greetingProvider.GetGreeting();
 
-//        [Test]
-//        public void GreetingAt6pmShouldBeGoodEvening()
-//        {
-//            // Arrange
+            // Assert
+            Assert.That(result, Is.EqualTo("Good afternoon!"));
+        }
 
-//            _mockTimeProvider.Setup(tp =>
-//                        tp.GetCurrentTime()).Returns
-//                        (new DateTime(2024, 1, 1, 18, 0, 0));
+        [Test]
+        public void GreetingAt6pmShouldBeGoodEvening()
+        {
+            // Arrange
 
-//            // Act
-//            string result = _greetingProvider.GetGreeting();
+            _mockTimeProvider.Setup(tp =>
+                        tp.GetCurrentTime()).Returns
+                        (new DateTime(2024, 1, 1, 18, 0, 0));
 
-//            // Assert
-//            Assert.That(result, Is.EqualTo("Good evening!"));
-//        }
+            // Act
+            string result = _greetingProvider.GetGreeting();
 
-//        [Test]
-//        public void GreetingAt11pmShouldBeGoodNight()
-//        {
-//            // Arrange
+            // Assert
+            Assert.That(result, Is.EqualTo("Good evening!"));
+        }
 
-//            _mockTimeProvider.Setup(tp =>
-//                        tp.GetCurrentTime()).Returns
-//                        (new DateTime(2024, 1, 1, 23, 0, 0));
+        [Test]
+        public void GreetingAt11pmShouldBeGoodNight()
+        {
+            // Arrange
 
-//            // Act
-//            string result = _greetingProvider.GetGreeting();
+            _mockTimeProvider.Setup(tp =>
+                        tp.GetCurrentTime()).Returns
+                        (new DateTime(2024, 1, 1, 23, 0, 0));
 
-//            // Assert
-//            Assert.That(result, Is.EqualTo("Good night!"));
-//        }
+            // Act
+            string result = _greetingProvider.GetGreeting();
 
-//        [TestCase("Good night!", 4)]
-//        [TestCase("Good evening!", 19)]
-//        [TestCase("Good afternoon!", 13)]
-//        [TestCase("Good morning!", 11)]
-//        public void GreetingShouldBeCorrectIfCorrectTimeIsGiven(string expectedMessage, int currentTime)
-//        {
-//            // Arrange
+            // Assert
+            Assert.That(result, Is.EqualTo("Good night!"));
+        }
 
-//            _mockTimeProvider.Setup(tp =>
-//                        tp.GetCurrentTime()).Returns
-//                        (new DateTime(2024, 1, 1, currentTime, 0, 0));
+        [TestCase("Good night!", 4)]
+        [TestCase("Good evening!", 19)]
+        [TestCase("Good afternoon!", 13)]
+        [TestCase("Good morning!", 11)]
+        public void GreetingShouldBeCorrectIfCorrectTimeIsGiven(string expectedMessage, int currentTime)
+        {
+            // Arrange
 
-//            // Act
-//            string result = _greetingProvider.GetGreeting();
+            _mockTimeProvider.Setup(tp =>
+                        tp.GetCurrentTime()).Returns
+                        (new DateTime(2024, 1, 1, currentTime, 0, 0));
 
-//            // Assert
-//            Assert.That(result, Is.EqualTo(expectedMessage));
-//            _mockTimeProvider.Verify(x => x.GetCurrentTime(), Times.Once);
-//        }
-//    }
-//}
+            // Act
+            string result = _greetingProvider.GetGreeting();
+
+            // Assert
+            Assert.That(result, Is.EqualTo(expectedMessage));
+            _mockTimeProvider.Verify(x => x.GetCurrentTime(), Times.Once);
+        }
+    }
+}

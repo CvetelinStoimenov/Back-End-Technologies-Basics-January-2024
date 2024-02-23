@@ -13,10 +13,19 @@ Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Exam Prepara
 Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Exam Preparation 1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\JsonParser.pdb
 Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Exam Preparation 1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\JsonParser.genruntimeconfig.cache
 Y:\#SoftUni\QA\06. Back-End Technologies Basics - януари 2024\Exam Preparation 1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\ref\JsonParser.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\bin\Debug\net6.0\JsonParser.exe
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\bin\Debug\net6.0\Datasets\Musicians.json
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\bin\Debug\net6.0\JsonParser.deps.json
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\bin\Debug\net6.0\JsonParser.runtimeconfig.json
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\bin\Debug\net6.0\JsonParser.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\bin\Debug\net6.0\JsonParser.pdb
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\JsonParser.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\JsonParser.AssemblyInfoInputs.cache
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\JsonParser.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\JsonParser.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\JsonParser.sourcelink.json
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\JsonParser.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\refint\JsonParser.dll
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\JsonParser.pdb
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\JsonParser.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\16. Exam Preparation_1\1-Musicians-Json-Parser\JsonParserMusicians\obj\Debug\net6.0\ref\JsonParser.dll

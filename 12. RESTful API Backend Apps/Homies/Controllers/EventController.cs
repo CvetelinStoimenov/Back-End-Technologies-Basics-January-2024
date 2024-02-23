@@ -122,7 +122,7 @@ namespace Homies.Controllers
             }
 
             var entry = await _data.EventsParticipants.FirstOrDefaultAsync(ep => ep.HelperId == currentUser && ep.EventId == eventId);
-            _data.EventsParticipants.Remove(entry);
+            _data.EventsParticipants.Remove(entry!);
             await _data.SaveChangesAsync();
 
             return RedirectToAction("All", "Event");

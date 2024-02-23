@@ -435,6 +435,16 @@
             "related": ".xml"
           }
         }
+      },
+      "GetGreeting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GetGreeting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GetGreeting.dll": {}
+        }
       }
     }
   },
@@ -1104,16 +1114,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "GetGreeting/1.0.0": {
+      "type": "project",
+      "path": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\GetGreeting\\GetGreeting.csproj",
+      "msbuildProject": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\GetGreeting\\GetGreeting.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "GetGreeting >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "Moq >= 4.20.70",
       "NUnit >= 3.14.0",
       "NUnit.Analyzers >= 3.9.0",
       "NUnit3TestAdapter >= 4.5.0",
-      "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\GetGreeting\\GetGreeting.csproj",
       "coverlet.collector >= 6.0.0"
     ]
   },
@@ -1209,16 +1224,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\GetGreeting\\GetGreeting.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "Y:\\#SoftUni\\QA\\06. Back-End Technologies Basics - януари 2024\\GetGreeting\\GetGreeting.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

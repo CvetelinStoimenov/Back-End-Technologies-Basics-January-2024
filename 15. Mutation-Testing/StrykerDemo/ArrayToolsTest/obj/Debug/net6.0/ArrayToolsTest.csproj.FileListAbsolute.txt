@@ -9,11 +9,6 @@ C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\bin\Debug\net6.0\testcentric.engine.metadata.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\bin\Debug\net6.0\ArrayToolsTest.deps.json
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\bin\Debug\net6.0\ArrayToolsTest.runtimeconfig.json
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.AssemblyInfoInputs.cache
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.AssemblyInfo.cs
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToo.8ECE89DF.Up2Date
-C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\bin\Debug\net6.0\ArrayToolsTest.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\bin\Debug\net6.0\ArrayToolsTest.pdb
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\bin\Debug\net6.0\FluentAssertions.dll
@@ -99,9 +94,14 @@ C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\bin\Debug\net6.0\ArrayTools.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\bin\Debug\net6.0\ArrayTools.pdb
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.AssemblyInfo.cs
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.sourcelink.json
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToo.8ECE89DF.Up2Date
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\refint\ArrayToolsTest.dll
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.pdb
+C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ArrayToolsTest.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\15. Mutation-Testing\StrykerDemo\ArrayToolsTest\obj\Debug\net6.0\ref\ArrayToolsTest.dll
