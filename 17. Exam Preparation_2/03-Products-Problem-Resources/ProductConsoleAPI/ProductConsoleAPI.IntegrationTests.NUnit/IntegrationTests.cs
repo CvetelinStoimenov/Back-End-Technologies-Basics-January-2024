@@ -99,7 +99,7 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
             // Assert
             var productInDb = await dbContext.Products.FirstOrDefaultAsync(p => p.ProductCode == newProduct.ProductCode);
 
-            Assert.IsNull(productInDb);
+            Assert.IsNull(productInDb); 
         }
 
         [Test]
@@ -157,16 +157,38 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
             // Assert
             Assert.NotNull(products);
             Assert.That(products.Count(), Is.EqualTo(2));
+
+            Assert.That(products, Contains.Item(newProductFirst).And.Contains(newProductSecond));
+            Assert.That(products, Has.Exactly(1).Matches<Product>(p => p.OriginCountry == "BG"));
+            Assert.That(products, Has.Exactly(1).Matches<Product>(p => p.OriginCountry == "FR"));
+            Assert.That(products, Has.Exactly(1).Matches<Product>(p => p.Price == 1.25m));
+            Assert.That(products, Has.Exactly(1).Matches<Product>(p => p.Price == 1.50m));
         }
 
         [Test]
         public async Task GetAllAsync_WhenNoProductsExist_ShouldThrowKeyNotFoundException()
         {
-            // Arrange
 
-            // Act and Assert
-            var ex = Assert.ThrowsAsync<KeyNotFoundException>(async () => await productsManager.GetAllAsync());
-            Assert.That(ex?.Message, Is.EqualTo("No product found."));
+            // Act
+
+            //Assert
+            var exception = Assert.ThrowsAsync<KeyNotFoundException>(() => productsManager.GetAllAsync());
+            Assert.That(exception.Message, Is.EqualTo(("No product found.")));
+           
+            try
+            {
+                await productsManager.GetAllAsync();
+            }
+            catch (Exception ex)
+            {
+                Assert.That(ex.Message, Is.EqualTo(("No product found.")));
+            }
+
+            //// Arrange
+
+            //// Act and Assert
+            //var ex = Assert.ThrowsAsync<KeyNotFoundException>(async () => await productsManager.GetAllAsync());
+            //Assert.That(ex?.Message, Is.EqualTo("No product found."));
         }
 
         [Test]
@@ -213,17 +235,59 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
             // Act & Assert
             var ex = Assert.ThrowsAsync<KeyNotFoundException>(async () => await productsManager.SearchByOriginCountry("Not existing"));
             Assert.That(ex.Message, Is.EqualTo("No product found with the given first name."));
+
+            try
+            {
+                await productsManager.SearchByOriginCountry("Not existing");
+            }
+            catch (Exception expect)
+            {
+                Assert.That(expect.Message, Is.EqualTo(("No product found with the given first name.")));
+            }
         }
 
         [Test]
         public async Task GetSpecificAsync_WithValidProductCode_ShouldReturnProduct()
         {
             // Arrange
+            var newProductFirst = new Product()
+            {
+                OriginCountry = "BG",
+                ProductName = "TestProduct1",
+                ProductCode = "AB12C",
+                Price = 1.25m,
+                Quantity = 100,
+                Description = "Anything for description for TestProduct1"
+            };
+
+
+            var newProductSecond = new Product()
+            {
+                OriginCountry = "FR",
+                ProductName = "TestProduct2",
+                ProductCode = "AB13C",
+                Price = 1.50m,
+                Quantity = 50,
+                Description = "Anything for description for TestProduct2"
+            };
+
+            await productsManager.AddAsync(newProductFirst);
+            await productsManager.AddAsync(newProductSecond);
 
             // Act
+            var searchProduct = await productsManager.GetSpecificAsync("AB13C");
 
             // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            Assert.NotNull(searchProduct);
+
+            // Additional Asserts
+            Assert.That(searchProduct.ProductCode, Is.EqualTo("AB13C"));
+            Assert.That(searchProduct.OriginCountry, Is.EqualTo("FR"));
+            Assert.That(searchProduct.ProductName, Is.EqualTo("TestProduct2"));
+            Assert.That(searchProduct.Price, Is.EqualTo(1.50m));
+            Assert.That(searchProduct.Quantity, Is.EqualTo(50));
+            Assert.That(searchProduct.Description, Is.EqualTo("Anything for description for TestProduct2"));
+
         }
 
         [Test]
@@ -231,32 +295,89 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
         {
             // Arrange
 
-            // Act
+            // Act and Assert
+            var ex = Assert.ThrowsAsync<KeyNotFoundException>(async () => await productsManager.GetSpecificAsync("InvalidProductCode"));
+            Assert.That(ex?.Message, Is.EqualTo("No product found with product code: InvalidProductCode"));
 
-            // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            try
+            {
+                await productsManager.GetSpecificAsync("InvalidProductCode");
+            }
+            catch (Exception expect)
+            {
+                Assert.That(expect.Message, Is.EqualTo(("No product found with product code: InvalidProductCode")));
+            }
         }
 
         [Test]
         public async Task UpdateAsync_WithValidProduct_ShouldUpdateProduct()
         {
             // Arrange
+            var newProductFirst = new Product()
+            {
+                OriginCountry = "BG",
+                ProductName = "TestProduct1",
+                ProductCode = "AB12C",
+                Price = 1.25m,
+                Quantity = 100,
+                Description = "Anything for description for TestProduct1"
+            };
+
+
+            var newProductSecond = new Product()
+            {
+                OriginCountry = "FR",
+                ProductName = "TestProduct2",
+                ProductCode = "AB13C",
+                Price = 1.50m,
+                Quantity = 50,
+                Description = "Anything for description for TestProduct2"
+            };
+
+            await productsManager.AddAsync(newProductFirst);
+            await productsManager.AddAsync(newProductSecond);
+
+            newProductFirst.OriginCountry = "GB";
+            newProductFirst.ProductName = "Updated name TestProduct1";
+            newProductSecond.ProductName = "Updated name";
+            newProductFirst.Quantity = 200;
+            newProductSecond.Quantity = 200;
 
             // Act
+            await productsManager.UpdateAsync(newProductFirst);
 
             // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            var products = await productsManager.GetAllAsync();
+
+            Assert.NotNull(products);
+            Assert.That(newProductFirst.OriginCountry, Is.EqualTo("GB"));
+            Assert.That(newProductFirst.ProductName, Is.EqualTo("Updated name TestProduct1"));
+            Assert.That(newProductSecond.ProductName, Is.EqualTo("Updated name"));
+            Assert.That(newProductFirst.Quantity, Is.EqualTo(200));
+            Assert.That(newProductSecond.Quantity, Is.EqualTo(200));
+
+            Assert.That(products, Has.Exactly(1).Matches<Product>(p => p.OriginCountry == "GB"));
+            Assert.That(products, Has.Exactly(1).Matches<Product>(p => p.ProductName == "Updated name TestProduct1"));
+            Assert.That(products, Has.Exactly(1).Matches<Product>(p => p.ProductName == "Updated name"));
+            Assert.That(products, Has.Exactly(2).Matches<Product>(p => p.Quantity == 200));
         }
 
         [Test]
         public async Task UpdateAsync_WithInvalidProduct_ShouldThrowValidationException()
         {
-            // Arrange
 
-            // Act
+            // Act and Assert
+            var ex = Assert.ThrowsAsync<ValidationException>(async () => await productsManager.UpdateAsync(new Product()));
+            Assert.That(ex?.Message, Is.EqualTo("Invalid prduct!"));
 
-            // Assert
-            Assert.Inconclusive("Test not implemented yet.");
+            try
+            {
+                await productsManager.UpdateAsync(new Product());
+            }
+            catch (Exception expect)
+            {
+                Assert.That(expect.Message, Is.EqualTo(("Invalid prduct!")));
+            }
         }
     }
 }
