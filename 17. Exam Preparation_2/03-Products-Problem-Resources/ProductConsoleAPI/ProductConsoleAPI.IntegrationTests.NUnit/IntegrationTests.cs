@@ -184,9 +184,6 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
                 Assert.That(ex.Message, Is.EqualTo(("No product found.")));
             }
 
-            //// Arrange
-
-            //// Act and Assert
             //var ex = Assert.ThrowsAsync<KeyNotFoundException>(async () => await productsManager.GetAllAsync());
             //Assert.That(ex?.Message, Is.EqualTo("No product found."));
         }
@@ -225,6 +222,13 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
             // Assert
             Assert.NotNull(searchProduct);
             Assert.That(searchProduct.Count(), Is.EqualTo(1));
+
+            // Additional Asserts
+            Assert.That(searchProduct, Has.Some.Matches<Product>(p => p.ProductCode == "AB12C")); // Ensure product with code "AB12C" exists
+            Assert.That(searchProduct, Has.None.Matches<Product>(p => p.ProductCode == "XYZ")); // Ensure product with code "XYZ" doesn't exist
+            Assert.That(searchProduct.Count, Is.EqualTo(1)); // Ensure only one product is returned
+            Assert.That(searchProduct, Has.All.Property("OriginCountry").EqualTo("BG")); // Ensure all products have the correct origin country
+            Assert.That(searchProduct, Has.All.Not.Null); // Ensure all products are not null
         }
 
         [Test]
@@ -287,7 +291,6 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
             Assert.That(searchProduct.Price, Is.EqualTo(1.50m));
             Assert.That(searchProduct.Quantity, Is.EqualTo(50));
             Assert.That(searchProduct.Description, Is.EqualTo("Anything for description for TestProduct2"));
-
         }
 
         [Test]
@@ -365,7 +368,6 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
         [Test]
         public async Task UpdateAsync_WithInvalidProduct_ShouldThrowValidationException()
         {
-
             // Act and Assert
             var ex = Assert.ThrowsAsync<ValidationException>(async () => await productsManager.UpdateAsync(new Product()));
             Assert.That(ex?.Message, Is.EqualTo("Invalid prduct!"));

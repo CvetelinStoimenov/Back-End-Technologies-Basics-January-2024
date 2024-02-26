@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7285AA93-BA08-4D18-B3EF-D7FA27A361FC}|17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\ProductConsoleAPI.IntegrationTests.NUnit.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\17. exam preparation_2\\03-products-problem-resources\\productconsoleapi\\productconsoleapi.integrationtests.nunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7285AA93-BA08-4D18-B3EF-D7FA27A361FC}|17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\ProductConsoleAPI.IntegrationTests.NUnit.csproj|solutionrelative:17. exam preparation_2\\03-products-problem-resources\\productconsoleapi\\productconsoleapi.integrationtests.nunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A74F7493-2CFF-41CC-9C8F-C7F684ED5FB1}|17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.XUnit\\ProductConsoleAPI.IntegrationTests.XUnit.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\17. exam preparation_2\\03-products-problem-resources\\productconsoleapi\\productconsoleapi.integrationtests.xunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A74F7493-2CFF-41CC-9C8F-C7F684ED5FB1}|17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.XUnit\\ProductConsoleAPI.IntegrationTests.XUnit.csproj|solutionrelative:17. exam preparation_2\\03-products-problem-resources\\productconsoleapi\\productconsoleapi.integrationtests.xunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{455996AC-E5C7-4CA8-9AF0-3DC620F29B77}|16. Exam Preparation_1\\3-ContactsConsoleAPI\\ContactsConsoleAPI.IntegrationTests.NUnit\\ContactsConsoleAPI.IntegrationTests.NUnit.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\16. exam preparation_1\\3-contactsconsoleapi\\contactsconsoleapi.integrationtests.nunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{455996AC-E5C7-4CA8-9AF0-3DC620F29B77}|16. Exam Preparation_1\\3-ContactsConsoleAPI\\ContactsConsoleAPI.IntegrationTests.NUnit\\ContactsConsoleAPI.IntegrationTests.NUnit.csproj|solutionrelative:16. exam preparation_1\\3-contactsconsoleapi\\contactsconsoleapi.integrationtests.nunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7285AA93-BA08-4D18-B3EF-D7FA27A361FC}|17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\ProductConsoleAPI.IntegrationTests.NUnit.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\17. exam preparation_2\\03-products-problem-resources\\productconsoleapi\\productconsoleapi.integrationtests.nunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7285AA93-BA08-4D18-B3EF-D7FA27A361FC}|17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\ProductConsoleAPI.IntegrationTests.NUnit.csproj|solutionrelative:17. exam preparation_2\\03-products-problem-resources\\productconsoleapi\\productconsoleapi.integrationtests.nunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +26,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "IntegrationTests.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\16. Exam Preparation_1\\3-ContactsConsoleAPI\\ContactsConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
-              "RelativeDocumentMoniker": "16. Exam Preparation_1\\3-ContactsConsoleAPI\\ContactsConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\16. Exam Preparation_1\\3-ContactsConsoleAPI\\ContactsConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
-              "RelativeToolTip": "16. Exam Preparation_1\\3-ContactsConsoleAPI\\ContactsConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
-              "ViewState": "AQIAADIBAAAAAAAAAAA6wE0BAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.XUnit\\IntegrationTests.cs",
+              "RelativeDocumentMoniker": "17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.XUnit\\IntegrationTests.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.XUnit\\IntegrationTests.cs",
+              "RelativeToolTip": "17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.XUnit\\IntegrationTests.cs",
+              "ViewState": "AQIAAFwBAAAAAAAAAAAIwGEBAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T13:49:43.366Z",
+              "WhenOpened": "2024-02-26T15:10:48.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IntegrationTests.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
               "RelativeDocumentMoniker": "17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
               "RelativeToolTip": "17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
-              "ViewState": "AQIAADMBAAAAAAAAAAAowDcBAAAIAAAA",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAQwHEBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-26T13:44:48.235Z",
               "EditorCaption": ""
