@@ -1,15 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProductConsoleAPI.Business.Contracts;
-using ProductConsoleAPI.Business;
 using ProductConsoleAPI.Data.Models;
-using ProductConsoleAPI.DataAccess;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.ComponentModel;
+
 
 namespace ProductConsoleAPI.IntegrationTests.XUnit
 {
@@ -93,7 +86,7 @@ namespace ProductConsoleAPI.IntegrationTests.XUnit
             await productsManager.AddAsync(newProduct);
 
             // Act
-            await productsManager.DeleteAsync("AB12C");
+            await productsManager.DeleteAsync(newProduct.ProductCode);
 
             // Assert
             var productInDb = await dbContext.Products.FirstOrDefaultAsync(p => p.ProductCode == newProduct.ProductCode);
@@ -105,19 +98,6 @@ namespace ProductConsoleAPI.IntegrationTests.XUnit
         [Fact] 
         public async Task DeleteProductAsync_TryToDeleteWithNullOrWhiteSpaceProductCode_ShouldThrowException()
         {
-            // Arrange
-            var newProduct = new Product()
-            {
-                OriginCountry = "Bulgaria",
-                ProductName = "TestProduct",
-                ProductCode = "AB12C",
-                Price = 1.25m,
-                Quantity = 100,
-                Description = "Anything for description"
-            };
-
-            await productsManager.AddAsync(newProduct);
-
             // Act & Assert
             var ex = await Assert.ThrowsAsync<ArgumentException>(async () => await productsManager.DeleteAsync(null));
             Assert.Equal("Product code cannot be empty.", ex?.Message);

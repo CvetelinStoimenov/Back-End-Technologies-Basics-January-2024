@@ -102,24 +102,13 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
             Assert.IsNull(productInDb); 
         }
 
-        [Test]
-        public async Task DeleteProductAsync_TryToDeleteWithNullOrWhiteSpaceProductCode_ShouldThrowException()
+        [TestCase(null)]
+        [TestCase("")]
+        [TestCase("     ")]
+        public async Task DeleteProductAsync_TryToDeleteWithNullOrWhiteSpaceProductCode_ShouldThrowException(string invalidCode)
         {
-            // Arrange
-            var newProduct = new Product()
-            {
-                OriginCountry = "Bulgaria",
-                ProductName = "TestProduct",
-                ProductCode = "AB12C",
-                Price = 1.25m,
-                Quantity = 100,
-                Description = "Anything for description"
-            };
-
-            await productsManager.AddAsync(newProduct);
-
             // Act & Assert
-            var ex = Assert.ThrowsAsync<ArgumentException>(async () => await productsManager.DeleteAsync(null));
+            var ex = Assert.ThrowsAsync<ArgumentException>(async () => await productsManager.DeleteAsync(invalidCode));
             Assert.That(ex?.Message, Is.EqualTo("Product code cannot be empty."));
         }
 
@@ -155,7 +144,6 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
             var products = await productsManager.GetAllAsync();
 
             // Assert
-            Assert.NotNull(products);
             Assert.That(products.Count(), Is.EqualTo(2));
 
             Assert.That(products, Contains.Item(newProductFirst).And.Contains(newProductSecond));
@@ -163,15 +151,31 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
             Assert.That(products, Has.Exactly(1).Matches<Product>(p => p.OriginCountry == "FR"));
             Assert.That(products, Has.Exactly(1).Matches<Product>(p => p.Price == 1.25m));
             Assert.That(products, Has.Exactly(1).Matches<Product>(p => p.Price == 1.50m));
+
+            var firstItem = products.FirstOrDefault(x => x.ProductCode == newProductFirst.ProductCode);
+            Assert.NotNull(firstItem);
+            Assert.That(firstItem.ProductName, Is.EqualTo(newProductFirst.ProductName));
+            Assert.That(firstItem.Description, Is.EqualTo(newProductFirst.Description));
+            Assert.That(firstItem.Price, Is.EqualTo(newProductFirst.Price));
+            Assert.That(firstItem.Quantity, Is.EqualTo(newProductFirst.Quantity));
+            Assert.That(firstItem.OriginCountry, Is.EqualTo(newProductFirst.OriginCountry));
+            Assert.That(firstItem.ProductCode, Is.EqualTo(newProductFirst.ProductCode));
+
+            var secondItem = products.FirstOrDefault(x => x.ProductCode.Equals(newProductSecond.ProductCode));
+            
+            Assert.NotNull(secondItem);
+            Assert.That(secondItem.ProductName, Is.EqualTo(newProductSecond.ProductName));
+            Assert.That(secondItem.Description, Is.EqualTo(newProductSecond.Description));
+            Assert.That(secondItem.Price, Is.EqualTo(newProductSecond.Price));
+            Assert.That(secondItem.Quantity, Is.EqualTo(newProductSecond.Quantity));
+            Assert.That(secondItem.OriginCountry, Is.EqualTo(newProductSecond.OriginCountry));
+            Assert.That(secondItem.ProductCode, Is.EqualTo(newProductSecond.ProductCode));
         }
 
         [Test]
         public async Task GetAllAsync_WhenNoProductsExist_ShouldThrowKeyNotFoundException()
         {
-
-            // Act
-
-            //Assert
+            //Act & Assert
             var exception = Assert.ThrowsAsync<KeyNotFoundException>(() => productsManager.GetAllAsync());
             Assert.That(exception.Message, Is.EqualTo(("No product found.")));
            
@@ -183,9 +187,6 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
             {
                 Assert.That(ex.Message, Is.EqualTo(("No product found.")));
             }
-
-            //var ex = Assert.ThrowsAsync<KeyNotFoundException>(async () => await productsManager.GetAllAsync());
-            //Assert.That(ex?.Message, Is.EqualTo("No product found."));
         }
 
         [Test]
@@ -234,10 +235,8 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
         [Test]
         public async Task SearchByOriginCountryAsync_WithNonExistingOriginCountry_ShouldThrowKeyNotFoundException()
         {
-            // Arrange
-
             // Act & Assert
-            var ex = Assert.ThrowsAsync<KeyNotFoundException>(async () => await productsManager.SearchByOriginCountry("Not existing"));
+            var ex = Assert.ThrowsAsync<KeyNotFoundException>(() => productsManager.SearchByOriginCountry("Not existing"));
             Assert.That(ex.Message, Is.EqualTo("No product found with the given first name."));
 
             try
