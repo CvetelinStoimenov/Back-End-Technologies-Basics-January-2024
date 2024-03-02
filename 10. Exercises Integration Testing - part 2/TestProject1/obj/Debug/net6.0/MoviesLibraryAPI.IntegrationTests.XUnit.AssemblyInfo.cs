@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoviesLibraryAPI.IntegrationTests.XUnit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e25dd570df3c3384ab225e0fcd8ac040f3865a00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5eb59230781fa8de9b5785c1a861e83b35f03fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoviesLibraryAPI.IntegrationTests.XUnit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoviesLibraryAPI.IntegrationTests.XUnit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

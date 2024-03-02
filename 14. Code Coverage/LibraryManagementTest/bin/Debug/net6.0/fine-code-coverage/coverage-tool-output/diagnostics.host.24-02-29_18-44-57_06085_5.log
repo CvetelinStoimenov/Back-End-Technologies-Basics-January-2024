@@ -1,0 +1,23 @@
+TpTrace Verbose: 0 : 20752, 1, 2024/02/29, 18:44:57.450, 158162809925, testhost.dll, Version: 17.5.0 Current process architecture: X64
+TpTrace Verbose: 0 : 20752, 1, 2024/02/29, 18:44:57.456, 158162866670, testhost.dll, Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\6.0.27
+TpTrace Information: 0 : 20752, 1, 2024/02/29, 18:44:57.461, 158162919369, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 56485],[--endpoint, 127.0.0.1:056485],[--role, client],[--parentprocessid, 11412],[--diag, C:\Users\Lenovo\source\repos\Back-End Technologies Basics - 01.2024\14. Code Coverage\LibraryManagementTest\bin\Debug\net6.0\fine-code-coverage\coverage-tool-output\diagnostics.host.24-02-29_18-44-57_06085_5.log],[--tracelevel, 4],[--datacollectionport, 56484],[--telemetryoptedin, false]
+TpTrace Information: 0 : 20752, 1, 2024/02/29, 18:44:57.463, 158162937606, testhost.dll, Setting up debug trace listener.
+TpTrace Verbose: 0 : 20752, 1, 2024/02/29, 18:44:57.463, 158162940182, testhost.dll, TestPlatformTraceListener.Setup: Replacing listener System.Diagnostics.DefaultTraceListener with TestHostTraceListener.
+TpTrace Verbose: 0 : 20752, 1, 2024/02/29, 18:44:57.464, 158162941389, testhost.dll, TestPlatformTraceListener.Setup: Added test platform trace listener.
+TpTrace Information: 0 : 20752, 1, 2024/02/29, 18:44:57.464, 158162946480, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '11412'
+TpTrace Information: 0 : 20752, 1, 2024/02/29, 18:44:57.534, 158163642770, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:056485'
+TpTrace Information: 0 : 20752, 1, 2024/02/29, 18:44:57.605, 158164353657, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:056485
+TpTrace Information: 0 : 20752, 1, 2024/02/29, 18:44:57.657, 158164876762, testhost.dll, DefaultEngineInvoker.ConnectToDatacollector: Connecting to datacollector, port: 56484
+TpTrace Information: 0 : 20752, 1, 2024/02/29, 18:44:57.674, 158165047121, testhost.dll, Trying to connect to server on socket : 127.0.0.1:56484 
+TpTrace Verbose: 0 : 20752, 1, 2024/02/29, 18:44:57.693, 158165231961, testhost.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 20752, 8, 2024/02/29, 18:44:57.735, 158165656143, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 20752, 8, 2024/02/29, 18:44:57.735, 158165657805, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Verbose: 0 : 20752, 1, 2024/02/29, 18:44:57.736, 158165664312, testhost.dll, SocketCommunicationManager.WaitForServerConnection took: 40 ms, with 90000 ms timeout, and finished with True.
+TpTrace Information: 0 : 20752, 1, 2024/02/29, 18:44:57.737, 158165672184, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 20752, 10, 2024/02/29, 18:44:57.761, 158165914607, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:056485
+TpTrace Verbose: 0 : 20752, 10, 2024/02/29, 18:44:57.766, 158165967288, testhost.dll, MulticastDelegateUtilities.SafeInvoke: SocketClient: ServerConnected: Invoking callback 1/1 for Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.TestRequestHandler., took 1 ms.
+TpTrace Verbose: 0 : 20752, 10, 2024/02/29, 18:44:57.766, 158165968761, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Information: 0 : 20752, 12, 2024/02/29, 18:44:57.766, 158165968127, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Verbose: 0 : 20752, 13, 2024/02/29, 18:44:57.788, 158166181470, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:56485 localEndPoint: [::ffff:127.0.0.1]:56486
+TpTrace Verbose: 0 : 20752, 13, 2024/02/29, 18:44:57.788, 158166188192, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:56485 localEndPoint: [::ffff:127.0.0.1]:56486
+TpTrace Information: 0 : 20752, 13, 2024/02/29, 18:44:57.796, 158166268614, testhost.dll, TestRequestHandler.OnMessageReceived: received message: (ProtocolVersion) -> {"MessageType":"ProtocolVersion","Payload":7}

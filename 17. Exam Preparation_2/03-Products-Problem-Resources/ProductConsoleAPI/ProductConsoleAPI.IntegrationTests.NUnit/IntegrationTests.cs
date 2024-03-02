@@ -345,7 +345,7 @@ namespace ProductConsoleAPI.IntegrationTests.NUnit
             newProductFirst.Quantity = 200;
             newProductSecond.Quantity = 200;
 
-            // Act
+            // Act  
             await productsManager.UpdateAsync(newProductFirst);
 
             // Assert
