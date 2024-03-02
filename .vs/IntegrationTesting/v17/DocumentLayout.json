@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7285AA93-BA08-4D18-B3EF-D7FA27A361FC}|17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\ProductConsoleAPI.IntegrationTests.NUnit.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\17. exam preparation_2\\03-products-problem-resources\\productconsoleapi\\productconsoleapi.integrationtests.nunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7285AA93-BA08-4D18-B3EF-D7FA27A361FC}|17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\ProductConsoleAPI.IntegrationTests.NUnit.csproj|solutionrelative:17. exam preparation_2\\03-products-problem-resources\\productconsoleapi\\productconsoleapi.integrationtests.nunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{538B5B78-5B0E-4C69-B07E-7CDF108CAF86}|18. Exam\\03. Zoo_Skeleton\\ZooConsoleAPI\\ZooConsoleAPI.IntegrationTests.NUnit\\ZooConsoleAPI.IntegrationTests.NUnit.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\18. exam\\03. zoo_skeleton\\zooconsoleapi\\zooconsoleapi.integrationtests.nunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{538B5B78-5B0E-4C69-B07E-7CDF108CAF86}|18. Exam\\03. Zoo_Skeleton\\ZooConsoleAPI\\ZooConsoleAPI.IntegrationTests.NUnit\\ZooConsoleAPI.IntegrationTests.NUnit.csproj|solutionrelative:18. exam\\03. zoo_skeleton\\zooconsoleapi\\zooconsoleapi.integrationtests.nunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A8D76E5-913F-41DA-BE1E-DC781BA69C8A}|18. Exam\\03. Zoo_Skeleton\\ZooConsoleAPI\\ZooConsoleAPI\\ZooConsoleAPI.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\18. exam\\03. zoo_skeleton\\zooconsoleapi\\zooconsoleapi\\business\\animalsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A8D76E5-913F-41DA-BE1E-DC781BA69C8A}|18. Exam\\03. Zoo_Skeleton\\ZooConsoleAPI\\ZooConsoleAPI\\ZooConsoleAPI.csproj|solutionrelative:18. exam\\03. zoo_skeleton\\zooconsoleapi\\zooconsoleapi\\business\\animalsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{455996AC-E5C7-4CA8-9AF0-3DC620F29B77}|16. Exam Preparation_1\\3-ContactsConsoleAPI\\ContactsConsoleAPI.IntegrationTests.NUnit\\ContactsConsoleAPI.IntegrationTests.NUnit.csproj|c:\\users\\lenovo\\source\\repos\\back-end technologies basics - 01.2024\\16. exam preparation_1\\3-contactsconsoleapi\\contactsconsoleapi.integrationtests.nunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{455996AC-E5C7-4CA8-9AF0-3DC620F29B77}|16. Exam Preparation_1\\3-ContactsConsoleAPI\\ContactsConsoleAPI.IntegrationTests.NUnit\\ContactsConsoleAPI.IntegrationTests.NUnit.csproj|solutionrelative:16. exam preparation_1\\3-contactsconsoleapi\\contactsconsoleapi.integrationtests.nunit\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\18. Exam\\03. Zoo_Skeleton\\ZooConsoleAPI\\ZooConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
+              "RelativeDocumentMoniker": "18. Exam\\03. Zoo_Skeleton\\ZooConsoleAPI\\ZooConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\18. Exam\\03. Zoo_Skeleton\\ZooConsoleAPI\\ZooConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
+              "RelativeToolTip": "18. Exam\\03. Zoo_Skeleton\\ZooConsoleAPI\\ZooConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
+              "ViewState": "AQIAACoBAAAAAAAAAAAwwHoBAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:20:04.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimalsManager.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\18. Exam\\03. Zoo_Skeleton\\ZooConsoleAPI\\ZooConsoleAPI\\Business\\AnimalsManager.cs",
+              "RelativeDocumentMoniker": "18. Exam\\03. Zoo_Skeleton\\ZooConsoleAPI\\ZooConsoleAPI\\Business\\AnimalsManager.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\18. Exam\\03. Zoo_Skeleton\\ZooConsoleAPI\\ZooConsoleAPI\\Business\\AnimalsManager.cs",
+              "RelativeToolTip": "18. Exam\\03. Zoo_Skeleton\\ZooConsoleAPI\\ZooConsoleAPI\\Business\\AnimalsManager.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAgwEMAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:17:00.341Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "IntegrationTests.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
-              "RelativeDocumentMoniker": "17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
-              "RelativeToolTip": "17. Exam Preparation_2\\03-Products-Problem-Resources\\ProductConsoleAPI\\ProductConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
-              "ViewState": "AQIAAJUAAAAAAAAAAAAuwKEAAABYAAAA",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\16. Exam Preparation_1\\3-ContactsConsoleAPI\\ContactsConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
+              "RelativeDocumentMoniker": "16. Exam Preparation_1\\3-ContactsConsoleAPI\\ContactsConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Back-End Technologies Basics - 01.2024\\16. Exam Preparation_1\\3-ContactsConsoleAPI\\ContactsConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
+              "RelativeToolTip": "16. Exam Preparation_1\\3-ContactsConsoleAPI\\ContactsConsoleAPI.IntegrationTests.NUnit\\IntegrationTests.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAYwNEAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T14:46:06.278Z",
+              "WhenOpened": "2024-03-02T08:55:23.284Z",
               "EditorCaption": ""
             }
           ]
